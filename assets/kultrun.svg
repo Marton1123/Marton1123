@@ -1,47 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 48">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 48" width="100%" height="100%">
+  <line x1="0" y1="24" x2="348" y2="24" stroke="#1e1025" stroke-width="0.8"/>
+  <polygon points="90,24 94,20 98,24 94,28" fill="#2d1838" opacity="0.9"/>
+  <polygon points="190,24 194,20 198,24 194,28" fill="#2d1838" opacity="0.9"/>
+  <polygon points="310,24 314,20 318,24 314,28" fill="#3d2048" opacity="0.9"/>
 
-<!-- Left decorative line -->
-<line x1="0" y1="24" x2="348" y2="24" stroke="#1e1025" stroke-width="0.8"/>
-<!-- Diamond accents on left line -->
-<polygon points="90,24 94,20 98,24 94,28" fill="#2d1838" opacity="0.9"/>
-<polygon points="190,24 194,20 198,24 194,28" fill="#2d1838" opacity="0.9"/>
-<polygon points="310,24 314,20 318,24 314,28" fill="#3d2048" opacity="0.9"/>
+  <circle cx="400" cy="24" r="21" fill="none" stroke="#E05A7A" stroke-width="1.5"/>
+  <circle cx="400" cy="24" r="23" fill="none" stroke="#E05A7A" stroke-width="0.4" opacity="0.3"/>
+  <circle cx="400" cy="1" r="2.2" fill="#E05A7A" opacity="0.65"/>
+  <circle cx="423" cy="24" r="2.2" fill="#E05A7A" opacity="0.65"/>
+  <circle cx="400" cy="47" r="2.2" fill="#E05A7A" opacity="0.65"/>
+  <circle cx="377" cy="24" r="2.2" fill="#E05A7A" opacity="0.65"/>
+  <line x1="400" y1="3" x2="400" y2="45" stroke="#E05A7A" stroke-width="0.9"/>
+  <line x1="379" y1="24" x2="421" y2="24" stroke="#E05A7A" stroke-width="0.9"/>
+  <polygon points="390,13 397,20 383,20" fill="#E05A7A" opacity="0.58"/>
+  <polygon points="410,13 417,20 403,20" fill="#E05A7A" opacity="0.58"/>
+  <polygon points="410,35 417,28 403,28" fill="#E05A7A" opacity="0.58"/>
+  <polygon points="390,35 397,28 383,28" fill="#E05A7A" opacity="0.58"/>
+  <circle cx="390" cy="16" r="1.2" fill="#f5c5d0" opacity="0.7"/>
+  <circle cx="410" cy="16" r="1.2" fill="#f5c5d0" opacity="0.7"/>
+  <circle cx="410" cy="32" r="1.2" fill="#f5c5d0" opacity="0.7"/>
+  <circle cx="390" cy="32" r="1.2" fill="#f5c5d0" opacity="0.7"/>
+  <circle cx="400" cy="24" r="3.2" fill="#E05A7A"/>
+  <circle cx="400" cy="24" r="1.5" fill="#f5c5d0"/>
 
-<!-- KULTRUN (center: 400,24) -->
-<!-- Outer circle -->
-<circle cx="400" cy="24" r="21" fill="none" stroke="#E05A7A" stroke-width="1.5"/>
-<!-- Outer glow ring -->
-<circle cx="400" cy="24" r="23" fill="none" stroke="#E05A7A" stroke-width="0.4" opacity="0.3"/>
-<!-- Cardinal dots (N,E,S,W) at outer ring -->
-<circle cx="400" cy="1" r="2.2" fill="#E05A7A" opacity="0.65"/>
-<circle cx="423" cy="24" r="2.2" fill="#E05A7A" opacity="0.65"/>
-<circle cx="400" cy="47" r="2.2" fill="#E05A7A" opacity="0.65"/>
-<circle cx="377" cy="24" r="2.2" fill="#E05A7A" opacity="0.65"/>
-<!-- Cross dividers (the 4 cosmic quadrants) -->
-<line x1="400" y1="3" x2="400" y2="45" stroke="#E05A7A" stroke-width="0.9"/>
-<line x1="379" y1="24" x2="421" y2="24" stroke="#E05A7A" stroke-width="0.9"/>
-<!-- NW quadrant: triangle pointing to center -->
-<polygon points="390,13 397,20 383,20" fill="#E05A7A" opacity="0.58"/>
-<!-- NE quadrant: triangle -->
-<polygon points="410,13 417,20 403,20" fill="#E05A7A" opacity="0.58"/>
-<!-- SE quadrant: triangle (mirrored) -->
-<polygon points="410,35 417,28 403,28" fill="#E05A7A" opacity="0.58"/>
-<!-- SW quadrant: triangle (mirrored) -->
-<polygon points="390,35 397,28 383,28" fill="#E05A7A" opacity="0.58"/>
-<!-- Small dots in each quadrant (stars / light) -->
-<circle cx="390" cy="16" r="1.2" fill="#f5c5d0" opacity="0.7"/>
-<circle cx="410" cy="16" r="1.2" fill="#f5c5d0" opacity="0.7"/>
-<circle cx="410" cy="32" r="1.2" fill="#f5c5d0" opacity="0.7"/>
-<circle cx="390" cy="32" r="1.2" fill="#f5c5d0" opacity="0.7"/>
-<!-- Center dot -->
-<circle cx="400" cy="24" r="3.2" fill="#E05A7A"/>
-<circle cx="400" cy="24" r="1.5" fill="#f5c5d0"/>
-
-<!-- Right decorative line -->
-<line x1="452" y1="24" x2="800" y2="24" stroke="#1e1025" stroke-width="0.8"/>
-<!-- Diamond accents on right line -->
-<polygon points="482,24 486,20 490,24 486,28" fill="#3d2048" opacity="0.9"/>
-<polygon points="602,24 606,20 610,24 606,28" fill="#2d1838" opacity="0.9"/>
-<polygon points="702,24 706,20 710,24 706,28" fill="#2d1838" opacity="0.9"/>
-
+  <line x1="452" y1="24" x2="800" y2="24" stroke="#1e1025" stroke-width="0.8"/>
+  <polygon points="482,24 486,20 490,24 486,28" fill="#3d2048" opacity="0.9"/>
+  <polygon points="602,24 606,20 610,24 606,28" fill="#2d1838" opacity="0.9"/>
+  <polygon points="702,24 706,20 710,24 706,28" fill="#2d1838" opacity="0.9"/>
 </svg>

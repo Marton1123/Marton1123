@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Norte Chico — Duraznero en flor bajo las estrellas del Elqui, con el toki ancestral en el cielo"/>
+<img src="./assets/banner.svg" width="100%" alt="Norte Chico — Duraznero en flor bajo las estrellas del Elqui"/>
 
 </div>
 
@@ -8,9 +8,9 @@
 
 <div align="center">
 
-> *Como la añañuca que duerme bajo la aridez*
-> *y florece después de la lluvia, sin aviso,*
-> *así construyo — en silencio, con paciencia —*
+> *Como la añañuca que duerme bajo la aridez*  
+> *y florece después de la lluvia, sin aviso,*  
+> *así construyo — en silencio, con paciencia —*  
 > *código que despierta cuando se necesita.*
 
 </div>
@@ -25,11 +25,11 @@
 
 ## I. La Raíz · *Quién Soy*
 
-Soy estudiante de Ingeniería en Tecnologías de la Información radicado en **Coquimbo, Chile** — tierra de cielos despejados, durazneros en flor y el desierto que florece. Me muevo entre la terminal, el soldador y la pizarra con la misma comodidad.
+Soy estudiante de Ingeniería en Tecnologías de la Información radicado en **Coquimbo, Chile** — tierra de cielos despejados, durazneros en flor y el desierto florido. Me muevo entre la terminal, el soldador y la pizarra con la misma comodidad.
 
-- 🎓 **Ayudante universitario** en cuatro materias: *Programación (Python)*, *Seguridad Informática y Hacking Ético*, *Ingeniería de Software* e *IoT*. La mejor forma de dominar algo es enseñándolo.
-- 🌊 **IoT & Acuicultura:** sistemas de telemetría y monitoreo en tiempo real para laboratorios de cultivo Biofloc — de sensores físicos al dashboard.
-- ⌨️ **Fuera de la terminal:** diseño y ensamblaje de teclados mecánicos personalizados, y exploración de nuevas arquitecturas de software.
+- **Ayudante universitario** en cuatro cátedras: *Programación (Python)*, *Seguridad Informática y Hacking Ético*, *Ingeniería de Software* e *IoT*. Enseñar para consolidar el dominio técnico.
+- **IoT & Acuicultura:** Sistemas de telemetría y monitoreo en tiempo real para laboratorios de cultivo Biofloc, integrando sensores físicos y dashboards operativos.
+- **Arquitectura & Hardware:** Diseño y ensamblaje de teclados mecánicos personalizados y análisis de arquitecturas de software y firmware embebido.
 
 <br>
 
@@ -43,7 +43,7 @@ Soy estudiante de Ingeniería en Tecnologías de la Información radicado en **C
 
 > *El toki que vuela en el cielo nocturno no es ornamento. Es intención.*
 
-**EclipSec** es la consultoría de ciberseguridad que cofundé. Operamos en hacking ético, pentesting, análisis de vulnerabilidades y auditorías de infraestructura para organizaciones que toman en serio su defensa digital.
+**EclipSec** es la consultoría de ciberseguridad que cofundé. Operamos en hacking ético, pentesting, análisis de vulnerabilidades y auditorías de infraestructura para organizaciones que se toman en serio su defensa digital.
 
 <div align="center">
 
@@ -68,14 +68,14 @@ Soy estudiante de Ingeniería en Tecnologías de la Información radicado en **C
 
 <div align="center">
 
-**⚡ Hardware & IoT**
+**Hardware & IoT**
 
 ![C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
 
-**💻 Desarrollo & Datos**
+**Desarrollo & Datos**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -97,13 +97,13 @@ Soy estudiante de Ingeniería en Tecnologías de la Información radicado en **C
 
 ## IV. Los Frutos · *Proyectos*
 
-| 🌺 | Proyecto | Descripción | Stack |
-|:--:| :--- | :--- | :--- |
-| 🔐 | **EclipSec** | Consultoría en hacking ético, pentesting y auditorías de infraestructura. | `Pentest` · `OWASP` · `Kali` |
-| 🦐 | **UCN Biofloc IoT** | Monitoreo de calidad de agua en tiempo real para laboratorio de acuicultura (UCN). | `ESP32` · `MongoDB` · `Streamlit` |
-| 🤖 | **Biofloc-Firmware-ROS** | Firmware C++ para ESP32 con micro-ROS — nodo central ROS 2 Jazzy. | `C++` · `ESP-IDF` · `micro-ROS` |
-| 🌿 | **Guayacan-Project** | Ecosistema e-commerce containerizado. Arquitectura híbrida PostgreSQL + MongoDB. | `Node.js` · `TypeScript` · `Docker` |
-| 💡 | **Smart-Lighting IoT** | Sistema de iluminación inteligente controlado por red local. | `HTML` · `IoT` · `MCU` |
+| Área | Proyecto | Descripción | Stack |
+| :--- | :--- | :--- | :--- |
+| Ciberseguridad | **EclipSec** | Consultoría en hacking ético, pentesting y auditorías de infraestructura. | `Pentest` · `OWASP` · `Kali` |
+| IoT / Acuicultura | **UCN Biofloc IoT** | Monitoreo de calidad de agua en tiempo real para laboratorio de acuicultura (UCN). | `ESP32` · `MongoDB` · `Streamlit` |
+| Robótica / Embebidos | **Biofloc-Firmware-ROS** | Firmware C++ para ESP32 con micro-ROS — nodo central ROS 2 Jazzy. | `C++` · `ESP-IDF` · `micro-ROS` |
+| Backend / Cloud | **Guayacan-Project** | Ecosistema e-commerce contenerizado. Arquitectura híbrida PostgreSQL + MongoDB. | `Node.js` · `TypeScript` · `Docker` |
+| Domótica / Redes | **Smart-Lighting IoT** | Sistema de iluminación inteligente controlado por red local. | `HTML` · `IoT` · `MCU` |
 
 <br>
 
@@ -118,10 +118,10 @@ Soy estudiante de Ingeniería en Tecnologías de la Información radicado en **C
 <div align="center">
 
 <a href="https://github.com/Marton1123">
-  <img height="158" src="https://github-readme-stats.vercel.app/api?username=Marton1123&show_icons=true&bg_color=05030d&border_color=E05A7A&icon_color=E05A7A&title_color=F5C5D0&text_color=9EA8B5&hide_border=false&ring_color=E05A7A&include_all_commits=true&count_private=true" />
+  <img height="158" src="https://github-readme-stats.vercel.app/api?username=Marton1123&show_icons=true&bg_color=05030d&border_color=E05A7A&icon_color=E05A7A&title_color=F5C5D0&text_color=9EA8B5&hide_border=false&ring_color=E05A7A&include_all_commits=true&count_private=true" alt="Estadísticas de GitHub" />
 </a>
 <a href="https://github.com/Marton1123">
-  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Marton1123&layout=compact&bg_color=05030d&border_color=E05A7A&title_color=F5C5D0&text_color=9EA8B5&hide_border=false" />
+  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Marton1123&layout=compact&bg_color=05030d&border_color=E05A7A&title_color=F5C5D0&text_color=9EA8B5&hide_border=false" alt="Lenguajes más utilizados" />
 </a>
 
 <br><br>
@@ -142,9 +142,9 @@ Soy estudiante de Ingeniería en Tecnologías de la Información radicado en **C
 
 <br>
 
-## ❖ Semillas · *Contacto*
+## VI. Semillas · *Contacto*
 
-Si te interesa conversar sobre ciberseguridad, arquitecturas de red, hardware embebido, o teclados mecánicos — eres bienvenido.
+Si te interesa conversar sobre ciberseguridad, arquitecturas de red, hardware embebido o teclados mecánicos — eres bienvenido.
 
 <div align="center">
 
@@ -161,9 +161,5 @@ Si te interesa conversar sobre ciberseguridad, arquitecturas de red, hardware em
 <br>
 
 *Del Norte Chico al bit. De la aridez a la flor.*
-
-`❖ · 💮 · ❖ · 💮 · ❖`
-
-![Visitor Count](https://komarev.com/ghpvc/?username=Marton1123&color=E05A7A&style=flat-square&label=visitas)
 
 </div>

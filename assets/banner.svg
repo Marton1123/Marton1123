@@ -1,283 +1,1283 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="100%" height="100%">
+  <defs>
+    <radialGradient id="skyGlow" cx="65%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#190c28" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#0e0618" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#05030d" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="milkyWay" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#e05a7a" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#b85078" stop-opacity="0.08"/>
+      <stop offset="55%" stop-color="#753578" stop-opacity="0.12"/>
+      <stop offset="75%" stop-color="#e8e0ff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#05030d" stop-opacity="1"/>
+    </linearGradient>
+    
+    <radialGradient id="moonGlowSoft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8db" stop-opacity="0.5"/>
+      <stop offset="30%" stop-color="#fae7a5" stop-opacity="0.22"/>
+      <stop offset="65%" stop-color="#e8c878" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#e8c878" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonCoreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#fff6d6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#fae398" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lunarGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#fffde8"/>
+      <stop offset="60%" stop-color="#fceeaa"/>
+      <stop offset="85%" stop-color="#eac266"/>
+      <stop offset="100%" stop-color="#c99b38"/>
+    </linearGradient>
 
-<!-- SKY -->
-<rect width="900" height="340" fill="#05030d"/>
+    
+    <linearGradient id="farCordilleraGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f1338"/>
+      <stop offset="45%" stop-color="#140b26"/>
+      <stop offset="100%" stop-color="#070312"/>
+    </linearGradient>
+    <linearGradient id="midTololoGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#170c2a"/>
+      <stop offset="55%" stop-color="#0f071c"/>
+      <stop offset="100%" stop-color="#05020c"/>
+    </linearGradient>
+    <linearGradient id="nearValleyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#110620"/>
+      <stop offset="60%" stop-color="#090312"/>
+      <stop offset="100%" stop-color="#05030d"/>
+    </linearGradient>
+    <linearGradient id="farCrestGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a326a" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#76509e" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#4a326a" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="midCrestGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3d225c" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#653d92" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3d225c" stop-opacity="0.2"/>
+    </linearGradient>
 
-<!-- STARS -->
-<circle cx="45" cy="22" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.12;0.95;0.12" dur="2.3s" repeatCount="indefinite"/></circle>
-<circle cx="88" cy="40" r="1.1" fill="#fff"><animate attributeName="opacity" values="0.08;0.8;0.08" dur="3.1s" begin="0.5s" repeatCount="indefinite"/></circle>
-<circle cx="133" cy="18" r="1.5" fill="#e8e0ff"><animate attributeName="opacity" values="0.15;0.98;0.15" dur="2.7s" begin="0.9s" repeatCount="indefinite"/></circle>
-<circle cx="176" cy="55" r="1.1" fill="#fff"><animate attributeName="opacity" values="0.1;0.85;0.1" dur="3.5s" begin="1.3s" repeatCount="indefinite"/></circle>
-<circle cx="222" cy="30" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.08;0.92;0.08" dur="2.1s" begin="0.2s" repeatCount="indefinite"/></circle>
-<circle cx="272" cy="48" r="1.0" fill="#fff5e0"><animate attributeName="opacity" values="0.15;0.88;0.15" dur="4.0s" begin="0.6s" repeatCount="indefinite"/></circle>
-<circle cx="342" cy="22" r="1.4" fill="#fff"><animate attributeName="opacity" values="0.1;0.96;0.1" dur="2.8s" begin="1.0s" repeatCount="indefinite"/></circle>
-<circle cx="392" cy="42" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.08;0.82;0.08" dur="3.3s" begin="0.3s" repeatCount="indefinite"/></circle>
-<circle cx="462" cy="28" r="1.0" fill="#e8e0ff"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="2.5s" begin="0.7s" repeatCount="indefinite"/></circle>
-<circle cx="512" cy="52" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.1;0.88;0.1" dur="3.7s" begin="1.4s" repeatCount="indefinite"/></circle>
-<circle cx="562" cy="18" r="1.5" fill="#fff"><animate attributeName="opacity" values="0.08;0.97;0.08" dur="2.2s" begin="0.8s" repeatCount="indefinite"/></circle>
-<circle cx="622" cy="38" r="1.1" fill="#fff5e0"><animate attributeName="opacity" values="0.15;0.83;0.15" dur="3.9s" begin="0.1s" repeatCount="indefinite"/></circle>
-<circle cx="682" cy="25" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.1;0.92;0.1" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
-<circle cx="732" cy="48" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.08;0.86;0.08" dur="3.2s" begin="1.1s" repeatCount="indefinite"/></circle>
-<circle cx="792" cy="20" r="1.4" fill="#e8e0ff"><animate attributeName="opacity" values="0.15;0.97;0.15" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></circle>
-<circle cx="852" cy="42" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.84;0.1" dur="3.6s" begin="0.7s" repeatCount="indefinite"/></circle>
-<circle cx="888" cy="58" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.08;0.9;0.08" dur="2.9s" begin="1.2s" repeatCount="indefinite"/></circle>
-<circle cx="25" cy="75" r="1.0" fill="#fff5e0"><animate attributeName="opacity" values="0.15;0.87;0.15" dur="3.4s" begin="0.4s" repeatCount="indefinite"/></circle>
-<circle cx="102" cy="88" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.91;0.1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></circle>
-<circle cx="160" cy="72" r="1.4" fill="#fff"><animate attributeName="opacity" values="0.08;0.96;0.08" dur="3.1s" begin="1.5s" repeatCount="indefinite"/></circle>
-<circle cx="298" cy="80" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="4.1s" begin="0.2s" repeatCount="indefinite"/></circle>
-<circle cx="420" cy="72" r="1.0" fill="#e8e0ff"><animate attributeName="opacity" values="0.1;0.88;0.1" dur="2.6s" begin="0.9s" repeatCount="indefinite"/></circle>
-<circle cx="488" cy="88" r="1.1" fill="#fff"><animate attributeName="opacity" values="0.08;0.84;0.08" dur="2.7s" begin="1.0s" repeatCount="indefinite"/></circle>
-<circle cx="548" cy="92" r="1.4" fill="#fff5e0"><animate attributeName="opacity" values="0.15;0.95;0.15" dur="3.8s" begin="0.5s" repeatCount="indefinite"/></circle>
-<circle cx="698" cy="90" r="1.3" fill="#fff"><animate attributeName="opacity" values="0.1;0.92;0.1" dur="2.5s" begin="1.2s" repeatCount="indefinite"/></circle>
-<circle cx="760" cy="75" r="1.1" fill="#fff"><animate attributeName="opacity" values="0.08;0.86;0.08" dur="3.3s" begin="0.6s" repeatCount="indefinite"/></circle>
-<circle cx="825" cy="88" r="1.0" fill="#e8e0ff"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="2.9s" begin="0.3s" repeatCount="indefinite"/></circle>
+    
+    <linearGradient id="peachPetal" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#b81640"/>
+      <stop offset="28%" stop-color="#e25780"/>
+      <stop offset="72%" stop-color="#f8b6ca"/>
+      <stop offset="100%" stop-color="#fff5f8"/>
+    </linearGradient>
+    <radialGradient id="peachCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#540416"/>
+      <stop offset="65%" stop-color="#990f30"/>
+      <stop offset="100%" stop-color="#e25780" stop-opacity="0"/>
+    </radialGradient>
 
-<!-- MOON CRESCENT (upper right) -->
-<circle cx="848" cy="58" r="26" fill="#e8d898" opacity="0.58"/>
-<circle cx="836" cy="50" r="22" fill="#05030d"/>
-<circle cx="848" cy="58" r="30" fill="none" stroke="#e8d898" stroke-width="0.6" opacity="0.18"/>
+    
+    <radialGradient id="gradDabDeep" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8a1232" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#b3244c" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#c83864" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gradDabMid" cx="45%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#e04a76" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#f2729a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fcaec6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gradDabLight" cx="45%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#fca8c2" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#fed2e0" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#fff5f8" stop-opacity="0"/>
+    </radialGradient>
 
-<!-- MOUNTAINS FAR (right side silhouette) -->
-<polygon points="440,340 468,188 506,228 548,165 598,210 648,146 698,190 748,124 796,164 842,100 886,140 900,130 900,340" fill="#0b0816"/>
+    
+    <linearGradient id="barkGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#140501"/>
+      <stop offset="22%" stop-color="#281105"/>
+      <stop offset="58%" stop-color="#461f0c"/>
+      <stop offset="85%" stop-color="#2c1306"/>
+      <stop offset="100%" stop-color="#140501"/>
+    </linearGradient>
 
-<!-- MOUNTAINS NEAR -->
-<polygon points="488,340 516,275 554,308 596,242 644,280 692,218 742,258 790,202 840,244 888,210 900,230 900,340" fill="#110d1c"/>
+    
+    
+    <linearGradient id="wcStemGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#05030d" stop-opacity="0.15"/>
+      <stop offset="8%" stop-color="#141c10" stop-opacity="0.75"/>
+      <stop offset="18%" stop-color="#243319"/>
+      <stop offset="38%" stop-color="#384f25"/>
+      <stop offset="65%" stop-color="#4e6f33"/>
+      <stop offset="85%" stop-color="#64863f"/>
+      <stop offset="100%" stop-color="#739048"/>
+    </linearGradient>
 
-<!-- OBSERVATORY on peak (748,124) -->
-<rect x="738" y="120" width="20" height="9" fill="#1a1238" rx="1"/>
-<path d="M736,120 A13,10 0 0 1 760,120" fill="#201848" stroke="#2c1e54" stroke-width="0.6"/>
-<line x1="748" y1="111" x2="748" y2="120" stroke="#E05A7A" stroke-width="0.9" opacity="0.4"/>
+    <linearGradient id="wcStemWash" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#182410" stop-opacity="0.8"/>
+      <stop offset="35%" stop-color="#4f6e35" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#84ab5c" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#2b3d1c" stop-opacity="0.7"/>
+    </linearGradient>
 
-<!-- GROUND (left half, where tree stands) -->
-<rect x="0" y="310" width="500" height="30" fill="#07040f"/>
-<line x1="0" y1="312" x2="500" y2="312" stroke="#130a20" stroke-width="0.6"/>
-<line x1="0" y1="320" x2="500" y2="320" stroke="#0e071a" stroke-width="0.4"/>
+    <linearGradient id="wcPetalMain" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#99160a"/>
+      <stop offset="18%" stop-color="#cc2c12"/>
+      <stop offset="55%" stop-color="#ed481c"/>
+      <stop offset="85%" stop-color="#fc6838"/>
+      <stop offset="100%" stop-color="#ff8c6b"/>
+    </linearGradient>
 
-<!-- ═══════════════════════════════════ -->
-<!-- DURAZNERO EN FLOR (Flowering Peach) -->
-<!-- ═══════════════════════════════════ -->
+    <linearGradient id="wcPetalDeep" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#5c0704"/>
+      <stop offset="35%" stop-color="#911208"/>
+      <stop offset="75%" stop-color="#c42614"/>
+      <stop offset="100%" stop-color="#e04022"/>
+    </linearGradient>
 
-<!-- TRUNK (layered for depth) -->
-<path d="M215,342 C213,310 210,282 208,256 C205,238 205,224 208,210" stroke="#321808" stroke-width="28" fill="none" stroke-linecap="round"/>
-<path d="M215,342 C213,310 210,282 208,256 C205,238 205,224 208,210" stroke="#523020" stroke-width="20" fill="none" stroke-linecap="round"/>
-<path d="M215,342 C213,310 210,282 208,256 C205,238 205,224 208,210" stroke="#68401e" stroke-width="12" fill="none" stroke-linecap="round"/>
-<!-- bark texture hints -->
-<path d="M213,290 C215,285 213,278 211,272" stroke="#3a1c08" stroke-width="2" fill="none" opacity="0.6"/>
-<path d="M218,268 C216,262 218,255 217,248" stroke="#3a1c08" stroke-width="2" fill="none" opacity="0.5"/>
+    <linearGradient id="wcPetalGlaze" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#c42614" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f55530" stop-opacity="0.3"/>
+      <stop offset="85%" stop-color="#fc8060" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffaf98" stop-opacity="0.75"/>
+    </linearGradient>
 
-<!-- MAIN BRANCHES -->
-<path d="M208,210 C194,196 172,172 148,148 C132,134 112,120 90,106" stroke="#523020" stroke-width="14" fill="none" stroke-linecap="round"/>
-<path d="M208,210 C200,192 190,164 182,136 C174,112 168,86 162,62" stroke="#523020" stroke-width="11" fill="none" stroke-linecap="round"/>
-<path d="M208,210 C210,186 215,155 220,122 C224,96 228,70 230,46" stroke="#523020" stroke-width="13" fill="none" stroke-linecap="round"/>
-<path d="M208,210 C218,192 234,162 248,134 C260,112 272,88 284,65" stroke="#523020" stroke-width="10" fill="none" stroke-linecap="round"/>
-<path d="M208,210 C226,196 254,174 278,153 C302,134 330,118 358,106" stroke="#523020" stroke-width="12" fill="none" stroke-linecap="round"/>
-<path d="M208,210 C238,200 270,188 302,177 C332,167 366,154 398,144" stroke="#523020" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <linearGradient id="wcBudTubeGrad" x1="0%" y1="0%" x2="100%" y2="20%">
+      <stop offset="0%" stop-color="#3d5626"/>
+      <stop offset="22%" stop-color="#577936"/>
+      <stop offset="42%" stop-color="#a32810"/>
+      <stop offset="72%" stop-color="#de3e1a"/>
+      <stop offset="90%" stop-color="#fa683a"/>
+      <stop offset="100%" stop-color="#ffd566"/>
+    </linearGradient>
 
-<!-- SECONDARY BRANCHES -->
-<path d="M90,106 C76,90 64,72 58,52" stroke="#68401e" stroke-width="6" fill="none" stroke-linecap="round"/>
-<path d="M90,106 C84,88 82,68 86,48" stroke="#68401e" stroke-width="5" fill="none" stroke-linecap="round"/>
-<path d="M148,148 C140,128 138,105 142,84" stroke="#68401e" stroke-width="5" fill="none" stroke-linecap="round"/>
-<path d="M162,62 C156,42 156,22 160,6" stroke="#68401e" stroke-width="4" fill="none" stroke-linecap="round"/>
-<path d="M162,62 C170,43 180,26 192,12" stroke="#68401e" stroke-width="4" fill="none" stroke-linecap="round"/>
-<path d="M230,46 C226,26 228,8 232,-4" stroke="#68401e" stroke-width="4" fill="none" stroke-linecap="round"/>
-<path d="M230,46 C238,27 250,12 264,-1" stroke="#68401e" stroke-width="4" fill="none" stroke-linecap="round"/>
-<path d="M284,65 C295,46 308,28 325,14" stroke="#68401e" stroke-width="4" fill="none" stroke-linecap="round"/>
-<path d="M358,106 C372,88 390,72 410,60" stroke="#68401e" stroke-width="4" fill="none" stroke-linecap="round"/>
-<path d="M358,106 C376,95 398,86 422,80" stroke="#68401e" stroke-width="4" fill="none" stroke-linecap="round"/>
-<path d="M398,144 C420,130 444,118 468,110" stroke="#68401e" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <linearGradient id="wcBractGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c754e"/>
+      <stop offset="40%" stop-color="#bfa275"/>
+      <stop offset="80%" stop-color="#d9c296"/>
+      <stop offset="100%" stop-color="#705c3d"/>
+    </linearGradient>
 
-<!-- ═══════════════════════════════════ -->
-<!-- BLOSSOM CLUSTERS                   -->
-<!-- ═══════════════════════════════════ -->
+    <linearGradient id="wcCalyxGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#557538"/>
+      <stop offset="60%" stop-color="#3d5526"/>
+      <stop offset="100%" stop-color="#243416"/>
+    </linearGradient>
 
-<!-- Cluster: sec branch end (58,52) -->
-<circle cx="58" cy="50" r="14" fill="#fce8f0"/><circle cx="74" cy="40" r="12" fill="#f5c5d0"/><circle cx="44" cy="42" r="10" fill="#e07898"/>
-<circle cx="60" cy="32" r="13" fill="#fce8f0"/><circle cx="76" cy="58" r="10" fill="#ff9fbe"/><circle cx="42" cy="60" r="11" fill="#f5c5d0"/>
-<circle cx="34" cy="48" r="9" fill="#E05A7A" opacity="0.72"/><circle cx="85" cy="50" r="8" fill="#fce8f0"/>
+    <radialGradient id="wcThroat" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1c0101"/>
+      <stop offset="50%" stop-color="#420404"/>
+      <stop offset="85%" stop-color="#7a0d07" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#b0160c" stop-opacity="0"/>
+    </radialGradient>
 
-<!-- Cluster: sec branch (86,48) -->
-<circle cx="86" cy="46" r="11" fill="#fce8f0" opacity="0.92"/><circle cx="98" cy="38" r="9" fill="#f5c5d0" opacity="0.9"/>
-<circle cx="76" cy="40" r="8" fill="#e07898" opacity="0.88"/><circle cx="88" cy="30" r="10" fill="#fce8f0" opacity="0.9"/>
-<circle cx="100" cy="54" r="8" fill="#ff9fbe" opacity="0.88"/>
+    <radialGradient id="soilGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#05030d" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#0c071a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#05030d" stop-opacity="0"/>
+    </radialGradient>
 
-<!-- Cluster: (142,84) area -->
-<circle cx="142" cy="82" r="13" fill="#fce8f0"/><circle cx="156" cy="72" r="11" fill="#f5c5d0"/><circle cx="130" cy="74" r="10" fill="#e07898"/>
-<circle cx="144" cy="63" r="12" fill="#fce8f0"/><circle cx="158" cy="88" r="9" fill="#ff9fbe"/><circle cx="128" cy="91" r="10" fill="#f5c5d0"/>
+    <linearGradient id="groundSoilMist" x1="0" y1="318" x2="0" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#05030d" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#05030d" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#05030d" stop-opacity="0.95"/>
+    </linearGradient>
 
-<!-- Cluster: (160,6 and 192,12) upper left -->
-<circle cx="160" cy="5" r="11" fill="#fce8f0" opacity="0.92"/><circle cx="172" cy="-3" r="9" fill="#f5c5d0" opacity="0.9"/>
-<circle cx="150" cy="-1" r="8" fill="#e07898" opacity="0.86"/><circle cx="192" cy="10" r="12" fill="#fce8f0" opacity="0.92"/>
-<circle cx="204" cy="2" r="10" fill="#ff9fbe" opacity="0.88"/><circle cx="180" cy="22" r="9" fill="#f5c5d0" opacity="0.85"/>
-<circle cx="162" cy="25" r="8" fill="#fce8f0" opacity="0.8"/>
+    
+    <g id="an-flower-leftbud">
+      <path d="M-2.0,24 C-0.5,43 4.2,58 2.8,76 C1.4,92 -1.8,101 -2.2,108 L1.8,108 C2.2,101 5.2,92 6.6,76 C8.0,58 3.3,43 1.8,24 Z" fill="url(#wcStemGrad)"/>
+      <path d="M-1.4,25 C0.0,43 4.5,58 3.2,76 C1.9,92 -1.0,101 -1.4,107 L0.8,107 C1.2,101 4.2,92 5.4,76 C6.6,58 2.3,43 1.1,25 Z" fill="url(#wcStemWash)"/>
+      <path d="M0.9,26 C2.2,43 5.5,58 4.4,76 C3.3,92 0.5,101 0.0,106" stroke="#8eb866" stroke-width="0.7" fill="none" opacity="0.6" stroke-linecap="round"/>
+      <path d="M-2.2,24 C-4.2,34 -5.5,46 -3.8,58 C-4.5,46 -3.5,34 -1.2,26 Z" fill="url(#wcBractGrad)" opacity="0.85"/>
+      <path d="M-2.0,25 C-3.4,34 -4.5,46 -3.2,56" stroke="#524026" stroke-width="0.4" fill="none" opacity="0.6"/>
+      <path d="M1.5,24 C3.6,33 4.8,44 4.0,55 C3.0,43 2.0,33 0.8,26 Z" fill="url(#wcBractGrad)" opacity="0.8"/>
+      <path d="M1.5,25 C2.6,34 3.6,43 3.0,52" stroke="#524026" stroke-width="0.4" fill="none" opacity="0.5"/>
+      <path d="M-1.8,24 C-5.5,26 -10,28 -12.5,33 C-14.5,38 -14.5,44 -13,49 L-12,51" stroke="#344820" stroke-width="2.0" fill="none" stroke-linecap="round"/>
+      <path d="M-1.8,24 C-5.5,26 -10,28 -12.5,33 C-14.5,38 -14.5,44 -13,49 L-12,51" stroke="#5c7d3c" stroke-width="1.0" fill="none" stroke-linecap="round"/>
+      <path d="M-14.5,49 C-16,51 -15.5,53.5 -14,55 C-12.5,53.5 -11.5,51 -11,49 Z" fill="#44612a"/>
+      <path d="M-15,51 C-17.5,56 -18,63 -15.5,70 C-13,66 -11,59 -11,52 Z" fill="url(#wcPetalDeep)"/>
+      <path d="M-14,52 C-16.2,57 -16.5,64 -14.5,71 C-12.5,66 -10.5,60 -10.5,53 Z" fill="url(#wcPetalMain)"/>
+      <path d="M-12.8,53 C-14.5,58 -15,65 -13.8,69" stroke="#ff9a80" stroke-width="0.75" fill="none" opacity="0.75"/>
+      <path d="M-14.5,53 C-15.8,59 -16,66 -15.2,70" stroke="#630a04" stroke-width="0.45" fill="none"/>
+      <path d="M-1.8,4 C-2.5,11 -2.0,18 0,24 C2.0,18 2.5,11 1.8,4 Z" fill="url(#wcCalyxGrad)"/>
+      <path d="M-3.5,0 C-4.5,4 -3.0,7 0,9 C3.0,7 4.5,4 3.5,0 Z" fill="url(#wcCalyxGrad)"/>
+      <g transform="translate(0, -6)">
+        <path d="M-3,-2 C-9,-10 -8,-20 -2,-28 C2,-32 9,-32 13,-28 C17,-20 13,-10 3,-2 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,-2 C-7,-9 -6,-19 -1,-26 C3,-30 8,-30 11,-26 C14,-19 11,-9 2,-2 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-1,-3 C-5,-10 -4,-18 0,-24 C2.5,-27 6.5,-27 9,-24 C11,-18 8.5,-9 2,-3 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M0,-2 C1.5,-9 3,-18 5,-27" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M2,-9 C-0.5,-13 -1,-18 1.5,-22" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M5,-8 C7.5,-12 8.5,-16 7.5,-21" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M2,-2 C11,-7 23,-8 33,-4 C37,-2 38,2 35,5 C27,10 14,7 2,1 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M1.5,-1.5 C10,-6 21,-7 30,-3 C33.5,-1.5 34.5,2 32,4.5 C24.5,8.5 13,6 1.5,0.8 Z" fill="url(#wcPetalMain)"/>
+        <path d="M1,-1 C9,-5 18,-6 26,-2.5 C29,-1.2 30,1.5 28,3.5 C21,6.8 11.5,4.8 1,0.5 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M2,0 C11,-3 21,-3 29,-1" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M11,-2 C17,-4 22,-4 26,-2.5" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M2,1 C11,5 21,13 28,21 C31,24 31,27 27,28 C19,26 10,17 1,3 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M1.8,1.2 C10,5 19,12 25,19 C27.8,21.5 27.5,24 24.5,25 C17.5,23 9.5,15.5 1.2,2.8 Z" fill="url(#wcPetalMain)"/>
+        <path d="M1.5,1.5 C8.5,4.5 16,10.5 21.5,16.5 C23.8,18.5 23.5,20.5 21,21.2 C15,19.5 8,13 1,2.5 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M2,1.5 C10,6 17,13 24,20" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M10,7 C16,12 20,16 23,19" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-1,3 C-6,11 -12,21 -17,31 C-19,34 -22,33 -23,30 C-21,21 -14,11 -1,2 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-0.8,2.8 C-5.2,10 -10.8,19 -15.5,28 C-17.2,30.5 -19.8,29.5 -20.5,27 C-19,19.5 -12.8,10.5 -0.5,2 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-0.5,2.5 C-4.5,8.8 -9.5,17 -13.5,24 C-15,26.2 -17,25.5 -17.8,23.5 C-16.5,17.5 -11,9.5 -0.2,1.8 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-0.8,2.8 C-5,10 -10,18 -15,27" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-6,11 C-10,16 -13,21 -15,25" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-3,0 C-13,-2 -25,-2 -34,3 C-37,5 -36,9 -32,10.5 C-23,11 -12,7 -2,3 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,0.2 C-12,-1.5 -23,-1.5 -31,3 C-33.8,4.5 -33,7.5 -29.8,8.8 C-21.5,9.2 -11,6 -2,2.5 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-2,0.5 C-10,-0.8 -20,-0.8 -27,3 C-29.5,4.2 -28.8,6.2 -26,7.2 C-18.8,7.5 -10,5 -2,2 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-2,1 C-12,0.8 -22,1.8 -30,4.5" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-12,0.5 C-18,0 -23,0.8 -27,2.5" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-2,-3 C-10,-9 -20,-16 -28,-19 C-32,-20 -33,-17 -31,-14 C-24,-7 -13,-2 -2,0 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,-2.5 C-9,-8 -18,-14 -26,-17 C-29.5,-18 -30.5,-15.5 -28.5,-13 C-22.5,-7 -12,-2 -2,0 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-2,-2 C-8,-7 -16,-12 -23,-15 C-25.8,-15.8 -26.5,-14 -24.8,-12 C-19.5,-7 -10.5,-2 -2,0 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-2,-2 C-10,-7 -18,-12 -25,-15" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-10,-5 C-14,-9 -19,-12 -22,-14" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <ellipse cx="0" cy="0.5" rx="5.8" ry="5.8" fill="url(#wcThroat)"/>
+        <circle cx="0" cy="0.5" r="3.0" fill="#200101"/>
+        <path d="M0,0 L2,-6" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L5,-2" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L4,5" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-3,6" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-6,1" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-5,-5" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M-1.5,1 C-2.5,-1 -3.5,-5 -3.5,-10 C-3.5,-12 -2.5,-13 -1.5,-13" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="-1.5" cy="-13" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(-20 -1.5 -13)"/>
+        <circle cx="-1.5" cy="-13" r="0.4" fill="#8c3e06"/>
+        <path d="M-0.5,1.5 C-1.0,-1 -1.5,-6 -1.0,-11 C-0.5,-13.5 0.8,-14.5 2.0,-14" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="2.0" cy="-14" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(15 2.0 -14)"/>
+        <circle cx="2.0" cy="-14" r="0.4" fill="#8c3e06"/>
+        <path d="M0.5,1.5 C1.0,-1 2.0,-6 3.0,-11 C3.5,-13 4.8,-13.5 6.0,-13" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="6.0" cy="-13" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(30 6.0 -13)"/>
+        <circle cx="6.0" cy="-13" r="0.4" fill="#8c3e06"/>
+        <path d="M1.5,1 C2.5,-0.5 4.0,-4 5.5,-8 C6.5,-10 7.8,-10.5 9.0,-9.5" stroke="#fff1b8" stroke-width="0.75" fill="none"/>
+        <ellipse cx="9.0" cy="-9.5" rx="1.2" ry="0.75" fill="#ffd438" transform="rotate(45 9.0 -9.5)"/>
+        <circle cx="9.0" cy="-9.5" r="0.35" fill="#8c3e06"/>
+        <path d="M-1.0,2 C-2.5,1 -4.5,-2 -5.5,-6 C-6,-8 -5.5,-9.5 -4.2,-10" stroke="#fff1b8" stroke-width="0.75" fill="none"/>
+        <ellipse cx="-4.2" cy="-10" rx="1.2" ry="0.75" fill="#ffd438" transform="rotate(-35 -4.2 -10)"/>
+        <circle cx="-4.2" cy="-10" r="0.35" fill="#8c3e06"/>
+        <path d="M0,2 C1,2 2.5,0.5 3.5,-3 C4,-5 4.8,-6 5.8,-6" stroke="#fff1b8" stroke-width="0.7" fill="none"/>
+        <ellipse cx="5.8" cy="-6" rx="1.1" ry="0.7" fill="#ffd438" transform="rotate(25 5.8 -6)"/>
+        <path d="M0,1 C-0.5,-4 -0.2,-10 0.8,-16 C1.2,-18 2.5,-19.5 4.0,-19" stroke="#ffc4b0" stroke-width="0.9" fill="none"/>
+        <circle cx="4.0" cy="-19" r="1.1" fill="#e8341a"/>
+        <circle cx="4.0" cy="-19" r="0.5" fill="#ffef94"/>
+      </g>
+    </g>
 
-<!-- Cluster: (162,62) main branch mid -->
-<circle cx="162" cy="60" r="15" fill="#fce8f0"/><circle cx="178" cy="50" r="12" fill="#f5c5d0"/><circle cx="148" cy="53" r="11" fill="#e07898"/>
-<circle cx="164" cy="40" r="14" fill="#fce8f0"/><circle cx="180" cy="67" r="10" fill="#ff9fbe"/><circle cx="147" cy="70" r="11" fill="#f5c5d0"/>
-<circle cx="192" cy="58" r="9" fill="#fce8f0"/>
+    
+    <g id="an-flower-rightbud">
+      <path d="M2.0,24 C0.5,43 -4.2,58 -2.8,76 C-1.4,92 1.8,101 2.2,108 L-1.8,108 C-2.2,101 -5.2,92 -6.6,76 C-8.0,58 -3.3,43 -1.8,24 Z" fill="url(#wcStemGrad)"/>
+      <path d="M1.4,25 C0.0,43 -4.5,58 -3.2,76 C-1.9,92 1.0,101 1.4,107 L-0.8,107 C-1.2,101 -4.2,92 -5.4,76 C-6.6,58 -2.3,43 -1.1,25 Z" fill="url(#wcStemWash)"/>
+      <path d="M-0.9,26 C-2.2,43 -5.5,58 -4.4,76 C-3.3,92 -0.5,101 0.0,106" stroke="#8eb866" stroke-width="0.7" fill="none" opacity="0.6" stroke-linecap="round"/>
+      <path d="M2.2,24 C4.2,34 5.5,46 3.8,58 C4.5,46 3.5,34 1.2,26 Z" fill="url(#wcBractGrad)" opacity="0.85"/>
+      <path d="M-1.5,24 C-3.6,33 -4.8,44 -4.0,55 C-3.0,43 -2.0,33 -0.8,26 Z" fill="url(#wcBractGrad)" opacity="0.8"/>
+      <path d="M1.5,24 C5,25 9,27 13,29 C16,31 19,33 22,35" stroke="#344820" stroke-width="2.0" fill="none" stroke-linecap="round"/>
+      <path d="M1.5,24 C5,25 9,27 13,29 C16,31 19,33 22,35" stroke="#5c7d3c" stroke-width="1.0" fill="none" stroke-linecap="round"/>
+      <path d="M20,33.5 C22.5,34.5 25,35.5 27,37 C25,38.5 22.5,38 20,36 Z" fill="#44612a"/>
+      <path d="M24,34.5 C30,36.5 36,38.5 42,40 C45,41 48,42 50,44 C47,45.5 43,45.5 38,44 C31,42.5 25,39.5 22,36.5 Z" fill="url(#wcBudTubeGrad)"/>
+      <path d="M26,35.5 C32,37.5 38,39.5 44,41 C47,42 49,42.8 50,43.5" stroke="#ffae96" stroke-width="0.75" opacity="0.8" fill="none"/>
+      <path d="M25,37 C31,39 37,41 43,42.5" stroke="#6e0b04" stroke-width="0.4" opacity="0.5" fill="none"/>
+      <path d="M-1.8,4 C-2.5,11 -2.0,18 0,24 C2.0,18 2.5,11 1.8,4 Z" fill="url(#wcCalyxGrad)"/>
+      <path d="M-3.5,0 C-4.5,4 -3.0,7 0,9 C3.0,7 4.5,4 3.5,0 Z" fill="url(#wcCalyxGrad)"/>
+      <g transform="translate(0, -6)">
+        <path d="M-3,-2 C-9,-10 -8,-20 -2,-28 C2,-32 9,-32 13,-28 C17,-20 13,-10 3,-2 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,-2 C-7,-9 -6,-19 -1,-26 C3,-30 8,-30 11,-26 C14,-19 11,-9 2,-2 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-1,-3 C-5,-10 -4,-18 0,-24 C2.5,-27 6.5,-27 9,-24 C11,-18 8.5,-9 2,-3 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M0,-2 C1.5,-9 3,-18 5,-27" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M2,-9 C-0.5,-13 -1,-18 1.5,-22" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M5,-8 C7.5,-12 8.5,-16 7.5,-21" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M2,-2 C11,-7 23,-8 33,-4 C37,-2 38,2 35,5 C27,10 14,7 2,1 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M1.5,-1.5 C10,-6 21,-7 30,-3 C33.5,-1.5 34.5,2 32,4.5 C24.5,8.5 13,6 1.5,0.8 Z" fill="url(#wcPetalMain)"/>
+        <path d="M1,-1 C9,-5 18,-6 26,-2.5 C29,-1.2 30,1.5 28,3.5 C21,6.8 11.5,4.8 1,0.5 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M2,0 C11,-3 21,-3 29,-1" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M11,-2 C17,-4 22,-4 26,-2.5" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M2,1 C11,5 21,13 28,21 C31,24 31,27 27,28 C19,26 10,17 1,3 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M1.8,1.2 C10,5 19,12 25,19 C27.8,21.5 27.5,24 24.5,25 C17.5,23 9.5,15.5 1.2,2.8 Z" fill="url(#wcPetalMain)"/>
+        <path d="M1.5,1.5 C8.5,4.5 16,10.5 21.5,16.5 C23.8,18.5 23.5,20.5 21,21.2 C15,19.5 8,13 1,2.5 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M2,1.5 C10,6 17,13 24,20" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M10,7 C16,12 20,16 23,19" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-1,3 C-6,11 -12,21 -17,31 C-19,34 -22,33 -23,30 C-21,21 -14,11 -1,2 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-0.8,2.8 C-5.2,10 -10.8,19 -15.5,28 C-17.2,30.5 -19.8,29.5 -20.5,27 C-19,19.5 -12.8,10.5 -0.5,2 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-0.5,2.5 C-4.5,8.8 -9.5,17 -13.5,24 C-15,26.2 -17,25.5 -17.8,23.5 C-16.5,17.5 -11,9.5 -0.2,1.8 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-0.8,2.8 C-5,10 -10,18 -15,27" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-6,11 C-10,16 -13,21 -15,25" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-3,0 C-13,-2 -25,-2 -34,3 C-37,5 -36,9 -32,10.5 C-23,11 -12,7 -2,3 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,0.2 C-12,-1.5 -23,-1.5 -31,3 C-33.8,4.5 -33,7.5 -29.8,8.8 C-21.5,9.2 -11,6 -2,2.5 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-2,0.5 C-10,-0.8 -20,-0.8 -27,3 C-29.5,4.2 -28.8,6.2 -26,7.2 C-18.8,7.5 -10,5 -2,2 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-2,1 C-12,0.8 -22,1.8 -30,4.5" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-12,0.5 C-18,0 -23,0.8 -27,2.5" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-2,-3 C-10,-9 -20,-16 -28,-19 C-32,-20 -33,-17 -31,-14 C-24,-7 -13,-2 -2,0 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,-2.5 C-9,-8 -18,-14 -26,-17 C-29.5,-18 -30.5,-15.5 -28.5,-13 C-22.5,-7 -12,-2 -2,0 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-2,-2 C-8,-7 -16,-12 -23,-15 C-25.8,-15.8 -26.5,-14 -24.8,-12 C-19.5,-7 -10.5,-2 -2,0 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-2,-2 C-10,-7 -18,-12 -25,-15" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-10,-5 C-14,-9 -19,-12 -22,-14" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <ellipse cx="0" cy="0.5" rx="5.8" ry="5.8" fill="url(#wcThroat)"/>
+        <circle cx="0" cy="0.5" r="3.0" fill="#200101"/>
+        <path d="M0,0 L2,-6" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L5,-2" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L4,5" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-3,6" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-6,1" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-5,-5" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M-1.5,1 C-2.5,-1 -3.5,-5 -3.5,-10 C-3.5,-12 -2.5,-13 -1.5,-13" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="-1.5" cy="-13" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(-20 -1.5 -13)"/>
+        <circle cx="-1.5" cy="-13" r="0.4" fill="#8c3e06"/>
+        <path d="M-0.5,1.5 C-1.0,-1 -1.5,-6 -1.0,-11 C-0.5,-13.5 0.8,-14.5 2.0,-14" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="2.0" cy="-14" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(15 2.0 -14)"/>
+        <circle cx="2.0" cy="-14" r="0.4" fill="#8c3e06"/>
+        <path d="M0.5,1.5 C1.0,-1 2.0,-6 3.0,-11 C3.5,-13 4.8,-13.5 6.0,-13" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="6.0" cy="-13" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(30 6.0 -13)"/>
+        <circle cx="6.0" cy="-13" r="0.4" fill="#8c3e06"/>
+        <path d="M1.5,1 C2.5,-0.5 4.0,-4 5.5,-8 C6.5,-10 7.8,-10.5 9.0,-9.5" stroke="#fff1b8" stroke-width="0.75" fill="none"/>
+        <ellipse cx="9.0" cy="-9.5" rx="1.2" ry="0.75" fill="#ffd438" transform="rotate(45 9.0 -9.5)"/>
+        <circle cx="9.0" cy="-9.5" r="0.35" fill="#8c3e06"/>
+        <path d="M-1.0,2 C-2.5,1 -4.5,-2 -5.5,-6 C-6,-8 -5.5,-9.5 -4.2,-10" stroke="#fff1b8" stroke-width="0.75" fill="none"/>
+        <ellipse cx="-4.2" cy="-10" rx="1.2" ry="0.75" fill="#ffd438" transform="rotate(-35 -4.2 -10)"/>
+        <circle cx="-4.2" cy="-10" r="0.35" fill="#8c3e06"/>
+        <path d="M0,2 C1,2 2.5,0.5 3.5,-3 C4,-5 4.8,-6 5.8,-6" stroke="#fff1b8" stroke-width="0.7" fill="none"/>
+        <ellipse cx="5.8" cy="-6" rx="1.1" ry="0.7" fill="#ffd438" transform="rotate(25 5.8 -6)"/>
+        <path d="M0,1 C-0.5,-4 -0.2,-10 0.8,-16 C1.2,-18 2.5,-19.5 4.0,-19" stroke="#ffc4b0" stroke-width="0.9" fill="none"/>
+        <circle cx="4.0" cy="-19" r="1.1" fill="#e8341a"/>
+        <circle cx="4.0" cy="-19" r="0.5" fill="#ffef94"/>
+      </g>
+    </g>
 
-<!-- Cluster: (230,46) + upper secondaries -->
-<circle cx="230" cy="44" r="15" fill="#fce8f0"/><circle cx="246" cy="34" r="12" fill="#f5c5d0"/><circle cx="216" cy="37" r="11" fill="#e07898"/>
-<circle cx="232" cy="24" r="14" fill="#fce8f0"/><circle cx="248" cy="51" r="11" fill="#ff9fbe"/><circle cx="215" cy="54" r="12" fill="#f5c5d0"/>
-<circle cx="232" cy="-5" r="11" fill="#fce8f0" opacity="0.9"/><circle cx="244" cy="-12" r="9" fill="#f5c5d0" opacity="0.9"/>
-<circle cx="222" cy="-8" r="8" fill="#e07898" opacity="0.86"/><circle cx="264" cy="-2" r="10" fill="#fce8f0" opacity="0.9"/>
-<circle cx="248" cy="8" r="9" fill="#ff9fbe" opacity="0.88"/>
+    
+    <g id="an-flower-both">
+      <path d="M-2.0,24 C-0.5,43 4.2,58 2.8,76 C1.4,92 -1.8,101 -2.2,108 L1.8,108 C2.2,101 5.2,92 6.6,76 C8.0,58 3.3,43 1.8,24 Z" fill="url(#wcStemGrad)"/>
+      <path d="M-1.4,25 C0.0,43 4.5,58 3.2,76 C1.9,92 -1.0,101 -1.4,107 L0.8,107 C1.2,101 4.2,92 5.4,76 C6.6,58 2.3,43 1.1,25 Z" fill="url(#wcStemWash)"/>
+      <path d="M0.9,26 C2.2,43 5.5,58 4.4,76 C3.3,92 0.5,101 0.0,106" stroke="#8eb866" stroke-width="0.7" fill="none" opacity="0.6" stroke-linecap="round"/>
+      <path d="M-2.2,24 C-4.2,34 -5.5,46 -3.8,58 C-4.5,46 -3.5,34 -1.2,26 Z" fill="url(#wcBractGrad)" opacity="0.85"/>
+      <path d="M-2.0,25 C-3.4,34 -4.5,46 -3.2,56" stroke="#524026" stroke-width="0.4" fill="none" opacity="0.6"/>
+      <path d="M1.5,24 C3.6,33 4.8,44 4.0,55 C3.0,43 2.0,33 0.8,26 Z" fill="url(#wcBractGrad)" opacity="0.8"/>
+      <path d="M1.5,25 C2.6,34 3.6,43 3.0,52" stroke="#524026" stroke-width="0.4" fill="none" opacity="0.5"/>
+      <path d="M-1.8,24 C-5.5,26 -10,28 -12.5,33 C-14.5,38 -14.5,44 -13,49 L-12,51" stroke="#344820" stroke-width="2.0" fill="none" stroke-linecap="round"/>
+      <path d="M-1.8,24 C-5.5,26 -10,28 -12.5,33 C-14.5,38 -14.5,44 -13,49 L-12,51" stroke="#5c7d3c" stroke-width="1.0" fill="none" stroke-linecap="round"/>
+      <path d="M-14.5,49 C-16,51 -15.5,53.5 -14,55 C-12.5,53.5 -11.5,51 -11,49 Z" fill="#44612a"/>
+      <path d="M-15,51 C-17.5,56 -18,63 -15.5,70 C-13,66 -11,59 -11,52 Z" fill="url(#wcPetalDeep)"/>
+      <path d="M-14,52 C-16.2,57 -16.5,64 -14.5,71 C-12.5,66 -10.5,60 -10.5,53 Z" fill="url(#wcPetalMain)"/>
+      <path d="M-12.8,53 C-14.5,58 -15,65 -13.8,69" stroke="#ff9a80" stroke-width="0.75" fill="none" opacity="0.75"/>
+      <path d="M-14.5,53 C-15.8,59 -16,66 -15.2,70" stroke="#630a04" stroke-width="0.45" fill="none"/>
+      <path d="M1.5,24 C5,25 9,27 13,29 C16,31 19,33 22,35" stroke="#344820" stroke-width="2.0" fill="none" stroke-linecap="round"/>
+      <path d="M1.5,24 C5,25 9,27 13,29 C16,31 19,33 22,35" stroke="#5c7d3c" stroke-width="1.0" fill="none" stroke-linecap="round"/>
+      <path d="M20,33.5 C22.5,34.5 25,35.5 27,37 C25,38.5 22.5,38 20,36 Z" fill="#44612a"/>
+      <path d="M24,34.5 C30,36.5 36,38.5 42,40 C45,41 48,42 50,44 C47,45.5 43,45.5 38,44 C31,42.5 25,39.5 22,36.5 Z" fill="url(#wcBudTubeGrad)"/>
+      <path d="M26,35.5 C32,37.5 38,39.5 44,41 C47,42 49,42.8 50,43.5" stroke="#ffae96" stroke-width="0.75" opacity="0.8" fill="none"/>
+      <path d="M25,37 C31,39 37,41 43,42.5" stroke="#6e0b04" stroke-width="0.4" opacity="0.5" fill="none"/>
+      <path d="M-1.8,4 C-2.5,11 -2.0,18 0,24 C2.0,18 2.5,11 1.8,4 Z" fill="url(#wcCalyxGrad)"/>
+      <path d="M-3.5,0 C-4.5,4 -3.0,7 0,9 C3.0,7 4.5,4 3.5,0 Z" fill="url(#wcCalyxGrad)"/>
+      <g transform="translate(0, -6)">
+        <path d="M-3,-2 C-9,-10 -8,-20 -2,-28 C2,-32 9,-32 13,-28 C17,-20 13,-10 3,-2 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,-2 C-7,-9 -6,-19 -1,-26 C3,-30 8,-30 11,-26 C14,-19 11,-9 2,-2 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-1,-3 C-5,-10 -4,-18 0,-24 C2.5,-27 6.5,-27 9,-24 C11,-18 8.5,-9 2,-3 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M0,-2 C1.5,-9 3,-18 5,-27" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M2,-9 C-0.5,-13 -1,-18 1.5,-22" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M5,-8 C7.5,-12 8.5,-16 7.5,-21" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M2,-2 C11,-7 23,-8 33,-4 C37,-2 38,2 35,5 C27,10 14,7 2,1 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M1.5,-1.5 C10,-6 21,-7 30,-3 C33.5,-1.5 34.5,2 32,4.5 C24.5,8.5 13,6 1.5,0.8 Z" fill="url(#wcPetalMain)"/>
+        <path d="M1,-1 C9,-5 18,-6 26,-2.5 C29,-1.2 30,1.5 28,3.5 C21,6.8 11.5,4.8 1,0.5 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M2,0 C11,-3 21,-3 29,-1" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M11,-2 C17,-4 22,-4 26,-2.5" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M2,1 C11,5 21,13 28,21 C31,24 31,27 27,28 C19,26 10,17 1,3 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M1.8,1.2 C10,5 19,12 25,19 C27.8,21.5 27.5,24 24.5,25 C17.5,23 9.5,15.5 1.2,2.8 Z" fill="url(#wcPetalMain)"/>
+        <path d="M1.5,1.5 C8.5,4.5 16,10.5 21.5,16.5 C23.8,18.5 23.5,20.5 21,21.2 C15,19.5 8,13 1,2.5 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M2,1.5 C10,6 17,13 24,20" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M10,7 C16,12 20,16 23,19" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-1,3 C-6,11 -12,21 -17,31 C-19,34 -22,33 -23,30 C-21,21 -14,11 -1,2 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-0.8,2.8 C-5.2,10 -10.8,19 -15.5,28 C-17.2,30.5 -19.8,29.5 -20.5,27 C-19,19.5 -12.8,10.5 -0.5,2 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-0.5,2.5 C-4.5,8.8 -9.5,17 -13.5,24 C-15,26.2 -17,25.5 -17.8,23.5 C-16.5,17.5 -11,9.5 -0.2,1.8 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-0.8,2.8 C-5,10 -10,18 -15,27" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-6,11 C-10,16 -13,21 -15,25" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-3,0 C-13,-2 -25,-2 -34,3 C-37,5 -36,9 -32,10.5 C-23,11 -12,7 -2,3 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,0.2 C-12,-1.5 -23,-1.5 -31,3 C-33.8,4.5 -33,7.5 -29.8,8.8 C-21.5,9.2 -11,6 -2,2.5 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-2,0.5 C-10,-0.8 -20,-0.8 -27,3 C-29.5,4.2 -28.8,6.2 -26,7.2 C-18.8,7.5 -10,5 -2,2 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-2,1 C-12,0.8 -22,1.8 -30,4.5" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-12,0.5 C-18,0 -23,0.8 -27,2.5" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-2,-3 C-10,-9 -20,-16 -28,-19 C-32,-20 -33,-17 -31,-14 C-24,-7 -13,-2 -2,0 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,-2.5 C-9,-8 -18,-14 -26,-17 C-29.5,-18 -30.5,-15.5 -28.5,-13 C-22.5,-7 -12,-2 -2,0 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-2,-2 C-8,-7 -16,-12 -23,-15 C-25.8,-15.8 -26.5,-14 -24.8,-12 C-19.5,-7 -10.5,-2 -2,0 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-2,-2 C-10,-7 -18,-12 -25,-15" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-10,-5 C-14,-9 -19,-12 -22,-14" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <ellipse cx="0" cy="0.5" rx="5.8" ry="5.8" fill="url(#wcThroat)"/>
+        <circle cx="0" cy="0.5" r="3.0" fill="#200101"/>
+        <path d="M0,0 L2,-6" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L5,-2" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L4,5" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-3,6" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-6,1" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-5,-5" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M-1.5,1 C-2.5,-1 -3.5,-5 -3.5,-10 C-3.5,-12 -2.5,-13 -1.5,-13" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="-1.5" cy="-13" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(-20 -1.5 -13)"/>
+        <circle cx="-1.5" cy="-13" r="0.4" fill="#8c3e06"/>
+        <path d="M-0.5,1.5 C-1.0,-1 -1.5,-6 -1.0,-11 C-0.5,-13.5 0.8,-14.5 2.0,-14" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="2.0" cy="-14" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(15 2.0 -14)"/>
+        <circle cx="2.0" cy="-14" r="0.4" fill="#8c3e06"/>
+        <path d="M0.5,1.5 C1.0,-1 2.0,-6 3.0,-11 C3.5,-13 4.8,-13.5 6.0,-13" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="6.0" cy="-13" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(30 6.0 -13)"/>
+        <circle cx="6.0" cy="-13" r="0.4" fill="#8c3e06"/>
+        <path d="M1.5,1 C2.5,-0.5 4.0,-4 5.5,-8 C6.5,-10 7.8,-10.5 9.0,-9.5" stroke="#fff1b8" stroke-width="0.75" fill="none"/>
+        <ellipse cx="9.0" cy="-9.5" rx="1.2" ry="0.75" fill="#ffd438" transform="rotate(45 9.0 -9.5)"/>
+        <circle cx="9.0" cy="-9.5" r="0.35" fill="#8c3e06"/>
+        <path d="M-1.0,2 C-2.5,1 -4.5,-2 -5.5,-6 C-6,-8 -5.5,-9.5 -4.2,-10" stroke="#fff1b8" stroke-width="0.75" fill="none"/>
+        <ellipse cx="-4.2" cy="-10" rx="1.2" ry="0.75" fill="#ffd438" transform="rotate(-35 -4.2 -10)"/>
+        <circle cx="-4.2" cy="-10" r="0.35" fill="#8c3e06"/>
+        <path d="M0,2 C1,2 2.5,0.5 3.5,-3 C4,-5 4.8,-6 5.8,-6" stroke="#fff1b8" stroke-width="0.7" fill="none"/>
+        <ellipse cx="5.8" cy="-6" rx="1.1" ry="0.7" fill="#ffd438" transform="rotate(25 5.8 -6)"/>
+        <path d="M0,1 C-0.5,-4 -0.2,-10 0.8,-16 C1.2,-18 2.5,-19.5 4.0,-19" stroke="#ffc4b0" stroke-width="0.9" fill="none"/>
+        <circle cx="4.0" cy="-19" r="1.1" fill="#e8341a"/>
+        <circle cx="4.0" cy="-19" r="0.5" fill="#ffef94"/>
+      </g>
+    </g>
 
-<!-- Cluster: (284,65) area -->
-<circle cx="284" cy="63" r="13" fill="#fce8f0"/><circle cx="299" cy="54" r="11" fill="#f5c5d0"/><circle cx="271" cy="56" r="10" fill="#e07898"/>
-<circle cx="286" cy="44" r="12" fill="#fce8f0"/><circle cx="300" cy="70" r="9" fill="#ff9fbe"/>
-<!-- (325,14) secondary -->
-<circle cx="325" cy="12" r="12" fill="#fce8f0" opacity="0.9"/><circle cx="338" cy="4" r="10" fill="#f5c5d0" opacity="0.9"/>
-<circle cx="314" cy="6" r="9" fill="#e07898" opacity="0.86"/><circle cx="328" cy="-4" r="11" fill="#fce8f0" opacity="0.9"/>
-<circle cx="341" cy="20" r="8" fill="#ff9fbe" opacity="0.88"/>
+    
+    <g id="an-flower-solitary">
+      <path d="M2.0,24 C0.5,43 -4.2,58 -2.8,76 C-1.4,92 1.8,101 2.2,108 L-1.8,108 C-2.2,101 -5.2,92 -6.6,76 C-8.0,58 -3.3,43 -1.8,24 Z" fill="url(#wcStemGrad)"/>
+      <path d="M1.4,25 C0.0,43 -4.5,58 -3.2,76 C-1.9,92 1.0,101 1.4,107 L-0.8,107 C-1.2,101 -4.2,92 -5.4,76 C-6.6,58 -2.3,43 -1.1,25 Z" fill="url(#wcStemWash)"/>
+      <path d="M-0.9,26 C-2.2,43 -5.5,58 -4.4,76 C-3.3,92 -0.5,101 0.0,106" stroke="#8eb866" stroke-width="0.7" fill="none" opacity="0.6" stroke-linecap="round"/>
+      <path d="M2.2,24 C4.2,34 5.5,46 3.8,58 C4.5,46 3.5,34 1.2,26 Z" fill="url(#wcBractGrad)" opacity="0.85"/>
+      <path d="M-1.5,24 C-3.6,33 -4.8,44 -4.0,55 C-3.0,43 -2.0,33 -0.8,26 Z" fill="url(#wcBractGrad)" opacity="0.8"/>
+      <path d="M-1.8,4 C-2.5,11 -2.0,18 0,24 C2.0,18 2.5,11 1.8,4 Z" fill="url(#wcCalyxGrad)"/>
+      <path d="M-3.5,0 C-4.5,4 -3.0,7 0,9 C3.0,7 4.5,4 3.5,0 Z" fill="url(#wcCalyxGrad)"/>
+      <g transform="translate(0, -6)">
+        <path d="M-3,-2 C-9,-10 -8,-20 -2,-28 C2,-32 9,-32 13,-28 C17,-20 13,-10 3,-2 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,-2 C-7,-9 -6,-19 -1,-26 C3,-30 8,-30 11,-26 C14,-19 11,-9 2,-2 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-1,-3 C-5,-10 -4,-18 0,-24 C2.5,-27 6.5,-27 9,-24 C11,-18 8.5,-9 2,-3 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M0,-2 C1.5,-9 3,-18 5,-27" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M2,-9 C-0.5,-13 -1,-18 1.5,-22" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M5,-8 C7.5,-12 8.5,-16 7.5,-21" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M2,-2 C11,-7 23,-8 33,-4 C37,-2 38,2 35,5 C27,10 14,7 2,1 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M1.5,-1.5 C10,-6 21,-7 30,-3 C33.5,-1.5 34.5,2 32,4.5 C24.5,8.5 13,6 1.5,0.8 Z" fill="url(#wcPetalMain)"/>
+        <path d="M1,-1 C9,-5 18,-6 26,-2.5 C29,-1.2 30,1.5 28,3.5 C21,6.8 11.5,4.8 1,0.5 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M2,0 C11,-3 21,-3 29,-1" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M11,-2 C17,-4 22,-4 26,-2.5" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M2,1 C11,5 21,13 28,21 C31,24 31,27 27,28 C19,26 10,17 1,3 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M1.8,1.2 C10,5 19,12 25,19 C27.8,21.5 27.5,24 24.5,25 C17.5,23 9.5,15.5 1.2,2.8 Z" fill="url(#wcPetalMain)"/>
+        <path d="M1.5,1.5 C8.5,4.5 16,10.5 21.5,16.5 C23.8,18.5 23.5,20.5 21,21.2 C15,19.5 8,13 1,2.5 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M2,1.5 C10,6 17,13 24,20" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M10,7 C16,12 20,16 23,19" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-1,3 C-6,11 -12,21 -17,31 C-19,34 -22,33 -23,30 C-21,21 -14,11 -1,2 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-0.8,2.8 C-5.2,10 -10.8,19 -15.5,28 C-17.2,30.5 -19.8,29.5 -20.5,27 C-19,19.5 -12.8,10.5 -0.5,2 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-0.5,2.5 C-4.5,8.8 -9.5,17 -13.5,24 C-15,26.2 -17,25.5 -17.8,23.5 C-16.5,17.5 -11,9.5 -0.2,1.8 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-0.8,2.8 C-5,10 -10,18 -15,27" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-6,11 C-10,16 -13,21 -15,25" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-3,0 C-13,-2 -25,-2 -34,3 C-37,5 -36,9 -32,10.5 C-23,11 -12,7 -2,3 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,0.2 C-12,-1.5 -23,-1.5 -31,3 C-33.8,4.5 -33,7.5 -29.8,8.8 C-21.5,9.2 -11,6 -2,2.5 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-2,0.5 C-10,-0.8 -20,-0.8 -27,3 C-29.5,4.2 -28.8,6.2 -26,7.2 C-18.8,7.5 -10,5 -2,2 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-2,1 C-12,0.8 -22,1.8 -30,4.5" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-12,0.5 C-18,0 -23,0.8 -27,2.5" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <path d="M-2,-3 C-10,-9 -20,-16 -28,-19 C-32,-20 -33,-17 -31,-14 C-24,-7 -13,-2 -2,0 Z" fill="url(#wcPetalDeep)"/>
+        <path d="M-2,-2.5 C-9,-8 -18,-14 -26,-17 C-29.5,-18 -30.5,-15.5 -28.5,-13 C-22.5,-7 -12,-2 -2,0 Z" fill="url(#wcPetalMain)"/>
+        <path d="M-2,-2 C-8,-7 -16,-12 -23,-15 C-25.8,-15.8 -26.5,-14 -24.8,-12 C-19.5,-7 -10.5,-2 -2,0 Z" fill="url(#wcPetalGlaze)"/>
+        <path d="M-2,-2 C-10,-7 -18,-12 -25,-15" stroke="#6e0b04" stroke-width="0.6" opacity="0.8" fill="none"/>
+        <path d="M-10,-5 C-14,-9 -19,-12 -22,-14" stroke="#8f140a" stroke-width="0.4" fill="none" opacity="0.45"/>
+        <ellipse cx="0" cy="0.5" rx="5.8" ry="5.8" fill="url(#wcThroat)"/>
+        <circle cx="0" cy="0.5" r="3.0" fill="#200101"/>
+        <path d="M0,0 L2,-6" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L5,-2" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L4,5" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-3,6" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-6,1" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M0,0 L-5,-5" stroke="#3d0303" stroke-width="0.7"/>
+        <path d="M-1.5,1 C-2.5,-1 -3.5,-5 -3.5,-10 C-3.5,-12 -2.5,-13 -1.5,-13" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="-1.5" cy="-13" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(-20 -1.5 -13)"/>
+        <circle cx="-1.5" cy="-13" r="0.4" fill="#8c3e06"/>
+        <path d="M-0.5,1.5 C-1.0,-1 -1.5,-6 -1.0,-11 C-0.5,-13.5 0.8,-14.5 2.0,-14" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="2.0" cy="-14" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(15 2.0 -14)"/>
+        <circle cx="2.0" cy="-14" r="0.4" fill="#8c3e06"/>
+        <path d="M0.5,1.5 C1.0,-1 2.0,-6 3.0,-11 C3.5,-13 4.8,-13.5 6.0,-13" stroke="#fff1b8" stroke-width="0.8" fill="none"/>
+        <ellipse cx="6.0" cy="-13" rx="1.3" ry="0.8" fill="#ffd438" transform="rotate(30 6.0 -13)"/>
+        <circle cx="6.0" cy="-13" r="0.4" fill="#8c3e06"/>
+        <path d="M1.5,1 C2.5,-0.5 4.0,-4 5.5,-8 C6.5,-10 7.8,-10.5 9.0,-9.5" stroke="#fff1b8" stroke-width="0.75" fill="none"/>
+        <ellipse cx="9.0" cy="-9.5" rx="1.2" ry="0.75" fill="#ffd438" transform="rotate(45 9.0 -9.5)"/>
+        <circle cx="9.0" cy="-9.5" r="0.35" fill="#8c3e06"/>
+        <path d="M-1.0,2 C-2.5,1 -4.5,-2 -5.5,-6 C-6,-8 -5.5,-9.5 -4.2,-10" stroke="#fff1b8" stroke-width="0.75" fill="none"/>
+        <ellipse cx="-4.2" cy="-10" rx="1.2" ry="0.75" fill="#ffd438" transform="rotate(-35 -4.2 -10)"/>
+        <circle cx="-4.2" cy="-10" r="0.35" fill="#8c3e06"/>
+        <path d="M0,2 C1,2 2.5,0.5 3.5,-3 C4,-5 4.8,-6 5.8,-6" stroke="#fff1b8" stroke-width="0.7" fill="none"/>
+        <ellipse cx="5.8" cy="-6" rx="1.1" ry="0.7" fill="#ffd438" transform="rotate(25 5.8 -6)"/>
+        <path d="M0,1 C-0.5,-4 -0.2,-10 0.8,-16 C1.2,-18 2.5,-19.5 4.0,-19" stroke="#ffc4b0" stroke-width="0.9" fill="none"/>
+        <circle cx="4.0" cy="-19" r="1.1" fill="#e8341a"/>
+        <circle cx="4.0" cy="-19" r="0.5" fill="#ffef94"/>
+      </g>
+    </g>
 
-<!-- Cluster: (358,106 area) right branch -->
-<circle cx="358" cy="104" r="14" fill="#fce8f0"/><circle cx="373" cy="94" r="12" fill="#f5c5d0"/><circle cx="345" cy="96" r="10" fill="#e07898"/>
-<circle cx="360" cy="84" r="13" fill="#fce8f0"/><circle cx="375" cy="111" r="10" fill="#ff9fbe"/><circle cx="344" cy="114" r="11" fill="#f5c5d0"/>
-<!-- (410,60) secondary -->
-<circle cx="410" cy="58" r="12" fill="#fce8f0" opacity="0.9"/><circle cx="423" cy="50" r="10" fill="#f5c5d0" opacity="0.88"/>
-<circle cx="398" cy="51" r="9" fill="#e07898" opacity="0.84"/>
-<!-- (422,80) secondary -->
-<circle cx="422" cy="78" r="11" fill="#fce8f0" opacity="0.88"/><circle cx="435" cy="70" r="9" fill="#f5c5d0" opacity="0.86"/>
-<circle cx="411" cy="72" r="8" fill="#e07898" opacity="0.82"/>
+    
+    <g id="an-buds-two">
+      <path d="M-1.5,12 C-0.5,30 3.2,46 2.0,62 C1.0,76 -1.2,85 -1.5,92 L1.5,92 C1.8,85 4.0,76 5.0,62 C6.2,46 2.5,30 1.5,12 Z" fill="url(#wcStemGrad)"/>
+      <path d="M-0.8,13 C-0.0,30 3.5,46 2.4,62 C1.4,76 -0.6,85 -0.8,91 L0.8,91 C1.0,85 3.2,76 4.0,62 C5.0,46 1.8,30 0.8,13 Z" fill="url(#wcStemWash)"/>
+      <path d="M0.6,14 C1.5,30 4.2,46 3.4,62 C2.5,76 0.4,85 0.0,90" stroke="#8eb866" stroke-width="0.6" fill="none" opacity="0.6"/>
+      <path d="M-1.5,12 C-3.2,20 -4.2,30 -3.0,40 C-3.5,30 -2.5,20 -1.0,14 Z" fill="url(#wcBractGrad)" opacity="0.8"/>
+      <path d="M1.2,12 C2.8,20 3.5,28 3.0,36 C2.2,28 1.5,20 0.6,14 Z" fill="url(#wcBractGrad)" opacity="0.75"/>
+      <path d="M-1.2,12 C-5,13 -9,16 -11,21 C-12.5,25 -12,30 -10.5,34" stroke="#344820" stroke-width="1.8" fill="none"/>
+      <path d="M-1.2,12 C-5,13 -9,16 -11,21 C-12.5,25 -12,30 -10.5,34" stroke="#5c7d3c" stroke-width="0.9" fill="none"/>
+      <path d="M-12,33 C-13.5,35 -13,37.5 -11.5,39 C-10,37.5 -9.5,35 -9,33 Z" fill="#44612a"/>
+      <path d="M-12.5,35 C-15,40 -15,46 -13,52 C-11,48 -9,42 -9,36 Z" fill="url(#wcPetalDeep)"/>
+      <path d="M-11.8,36 C-14,41 -14,47 -12.2,53 C-10.5,49 -8.5,43 -8.5,37 Z" fill="url(#wcPetalMain)"/>
+      <path d="M-11,37 C-12.5,42 -12.5,47 -11.5,51" stroke="#ff9a80" stroke-width="0.6" fill="none" opacity="0.75"/>
+      <path d="M1.2,12 C4,10 8,8 11,5 C13,3 15,1 17,-2" stroke="#344820" stroke-width="1.8" fill="none"/>
+      <path d="M1.2,12 C4,10 8,8 11,5 C13,3 15,1 17,-2" stroke="#5c7d3c" stroke-width="0.9" fill="none"/>
+      <path d="M16,-1 C18,-2 20,-3 21,-5 C20,-6 18,-6 16,-4 Z" fill="#44612a"/>
+      <path d="M19,-4 C24,-7 29,-11 34,-15 C33,-17 30,-17 26,-15 C21,-12 17,-8 17,-4 Z" fill="url(#wcPetalDeep)"/>
+      <path d="M20,-5 C25,-8 29.5,-12 34.5,-16 C33,-17.5 30,-17 26.5,-15 C22,-12 18,-8.5 18,-4.5 Z" fill="url(#wcPetalMain)"/>
+      <path d="M22,-7 C27,-10 31,-13 34,-16" stroke="#ffd566" stroke-width="0.7" fill="none"/>
+    </g>
 
-<!-- Cluster: (468,110) far right secondary -->
-<circle cx="468" cy="108" r="12" fill="#fce8f0" opacity="0.85"/><circle cx="481" cy="99" r="10" fill="#f5c5d0" opacity="0.83"/>
-<circle cx="456" cy="100" r="9" fill="#e07898" opacity="0.78"/><circle cx="470" cy="90" r="11" fill="#fce8f0" opacity="0.82"/>
+    
+    <g id="an-bud-single">
+      <path d="M-1.2,12 C-0.2,28 2.5,44 1.5,58 C0.8,70 -1.0,78 -1.2,85 L1.2,85 C1.4,78 3.0,70 3.8,58 C4.8,44 2.0,28 1.2,12 Z" fill="url(#wcStemGrad)"/>
+      <path d="M-0.6,13 C0.2,28 2.8,44 1.8,58 C1.0,70 -0.6,78 -0.8,84 L0.8,84 C1.0,78 2.4,70 3.0,58 C3.8,44 1.4,28 0.6,13 Z" fill="url(#wcStemWash)"/>
+      <path d="M-1.2,12 C-2.5,19 -3.0,27 -2.2,35 C-2.5,27 -1.8,19 -0.8,13 Z" fill="url(#wcBractGrad)" opacity="0.8"/>
+      <path d="M-1.0,12 C-4,13 -7,16 -8.5,20 C-9.5,24 -9,28 -8,32" stroke="#344820" stroke-width="1.6" fill="none"/>
+      <path d="M-1.0,12 C-4,13 -7,16 -8.5,20 C-9.5,24 -9,28 -8,32" stroke="#5c7d3c" stroke-width="0.8" fill="none"/>
+      <path d="M-9.5,31 C-10.5,33 -10,35 -9,36 C-8,35 -7.5,33 -7,31 Z" fill="#44612a"/>
+      <path d="M-10,33 C-12,37 -12,42 -10.5,47 C-9,44 -7.5,39 -7.5,34 Z" fill="url(#wcPetalDeep)"/>
+      <path d="M-9.5,34 C-11.2,38 -11.2,43 -9.8,48 C-8.5,45 -7.0,40 -7.0,35 Z" fill="url(#wcPetalMain)"/>
+      <path d="M-9,35 C-10,39 -10,43 -9.2,46" stroke="#ff9a80" stroke-width="0.5" fill="none" opacity="0.75"/>
+    </g>
 
-<!-- Extra scattered blossoms for fullness/volume -->
-<circle cx="108" cy="74" r="7" fill="#fce8f0" opacity="0.7"/><circle cx="126" cy="104" r="7" fill="#f5c5d0" opacity="0.65"/>
-<circle cx="244" cy="102" r="8" fill="#fce8f0" opacity="0.6"/><circle cx="315" cy="142" r="7" fill="#f5c5d0" opacity="0.65"/>
-<circle cx="342" cy="150" r="7" fill="#fce8f0" opacity="0.6"/><circle cx="440" cy="130" r="8" fill="#fce8f0" opacity="0.65"/>
+    
+    <linearGradient id="soilBlend" x1="0" y1="310" x2="0" y2="332" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#05030d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#05030d" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#05030d" stop-opacity="1"/>
+    </linearGradient>
 
-<!-- ═══════════════════════════════════ -->
-<!-- TOKI MAPUCHE (ancestral sky spirit) -->
-<!-- Floating above, between tree & mountains, like a constellation cast by ancestors -->
-<!-- ═══════════════════════════════════ -->
-<g>
-  <animate attributeName="opacity" values="0.22;0.48;0.22" dur="4.5s" repeatCount="indefinite"/>
-  <g transform="translate(535, 130) rotate(-18, 535, 130)">
-    <!-- Stone head: elongated, slightly wider at cutting edge (top) -->
-    <ellipse cx="535" cy="118" rx="11" ry="26" fill="#E05A7A"/>
-    <!-- Cutting edge (top, slightly wider) -->
-    <ellipse cx="535" cy="96" rx="14" ry="7" fill="#f09fbe"/>
-    <!-- Lashing groove (binding notch, horizontal band in middle) -->
-    <rect x="524" y="124" width="22" height="6" rx="3" fill="#b03055"/>
-    <!-- Stone texture marks -->
-    <line x1="528" y1="108" x2="542" y2="106" stroke="#d06080" stroke-width="0.8" opacity="0.6"/>
-    <line x1="527" y1="115" x2="543" y2="113" stroke="#d06080" stroke-width="0.6" opacity="0.5"/>
-    <!-- Handle (wooden, slightly angled) -->
-    <rect x="532" y="143" width="6" height="52" rx="3" fill="#9a6540" opacity="0.65"/>
-    <!-- Handle grain hint -->
-    <line x1="534" y1="150" x2="534" y2="192" stroke="#7a4820" stroke-width="0.8" opacity="0.4"/>
+    
+    <g id="peach-blossom">
+      <circle cx="0" cy="0" r="3.4" fill="#240c06"/>
+      <path d="M0,0 C-3.5,-5 -6,-10 -2.5,-13 C1,-15 5.5,-13 5.5,-7.5 C5.5,-3.5 2,-1 0,0" fill="url(#peachPetal)" transform="rotate(0)"/>
+      <path d="M0,0 C-3.5,-5 -6,-10 -2.5,-13 C1,-15 5.5,-13 5.5,-7.5 C5.5,-3.5 2,-1 0,0" fill="url(#peachPetal)" transform="rotate(72)"/>
+      <path d="M0,0 C-3.5,-5 -6,-10 -2.5,-13 C1,-15 5.5,-13 5.5,-7.5 C5.5,-3.5 2,-1 0,0" fill="url(#peachPetal)" transform="rotate(144)"/>
+      <path d="M0,0 C-3.5,-5 -6,-10 -2.5,-13 C1,-15 5.5,-13 5.5,-7.5 C5.5,-3.5 2,-1 0,0" fill="url(#peachPetal)" transform="rotate(216)"/>
+      <path d="M0,0 C-3.5,-5 -6,-10 -2.5,-13 C1,-15 5.5,-13 5.5,-7.5 C5.5,-3.5 2,-1 0,0" fill="url(#peachPetal)" transform="rotate(288)"/>
+      <circle cx="0" cy="0" r="3.2" fill="url(#peachCenter)"/>
+      <line x1="0" y1="0" x2="-2.2" y2="-4.2" stroke="#f8c828" stroke-width="0.75"/>
+      <circle cx="-2.2" cy="-4.2" r="0.8" fill="#f8c828"/>
+      <line x1="0" y1="0" x2="2.4" y2="-3.8" stroke="#f8c828" stroke-width="0.75"/>
+      <circle cx="2.4" cy="-3.8" r="0.8" fill="#f8c828"/>
+      <line x1="0" y1="0" x2="3.8" y2="1.5" stroke="#f8c828" stroke-width="0.75"/>
+      <circle cx="3.8" cy="1.5" r="0.8" fill="#f8c828"/>
+      <line x1="0" y1="0" x2="0.6" y2="4.2" stroke="#f8c828" stroke-width="0.75"/>
+      <circle cx="0.6" cy="4.2" r="0.8" fill="#f8c828"/>
+      <line x1="0" y1="0" x2="-3.4" y2="2.0" stroke="#f8c828" stroke-width="0.75"/>
+      <circle cx="-3.4" cy="2.0" r="0.8" fill="#f8c828"/>
+      <circle cx="0" cy="0" r="1.3" fill="#ffe066"/>
+    </g>
+
+    
+    <g id="dab-deep">
+      <circle cx="0" cy="0" r="12" fill="url(#gradDabDeep)"/>
+      <path d="M-6,-4 C-10,-8 -9,-14 -3,-14 C2,-14 3,-8 -1,-4" fill="#a61c42" opacity="0.65"/>
+      <path d="M5,-2 C9,-6 14,-5 14,1 C14,6 8,6 4,1" fill="#8c1434" opacity="0.7"/>
+      <path d="M-2,6 C-3,11 -8,13 -11,8 C-14,3 -8,1 -2,3" fill="#9e183c" opacity="0.65"/>
+      <path d="M3,5 C7,9 12,8 11,2 C10,-3 5,-1 2,3" fill="#b8264e" opacity="0.6"/>
+    </g>
+
+    <g id="dab-mid">
+      <circle cx="0" cy="0" r="14" fill="url(#gradDabMid)"/>
+      <path d="M-6,-5 C-11,-10 -9,-16 -3,-15 C3,-15 4,-9 0,-4" fill="#e04a78" opacity="0.75"/>
+      <path d="M6,-3 C11,-7 16,-5 15,2 C14,8 8,7 4,1" fill="#eb5a86" opacity="0.8"/>
+      <path d="M-3,6 C-4,12 -10,13 -13,7 C-15,2 -8,1 -2,4" fill="#f06894" opacity="0.75"/>
+      <path d="M4,5 C9,10 14,8 13,2 C12,-4 6,-1 2,3" fill="#e65280" opacity="0.8"/>
+      <circle cx="0" cy="0" r="4.5" fill="#fcaec6" opacity="0.85"/>
+    </g>
+
+    <g id="dab-light">
+      <circle cx="0" cy="0" r="13" fill="url(#gradDabLight)"/>
+      <path d="M-5,-4 C-9,-8 -7,-14 -2,-13 C2,-13 3,-8 0,-3" fill="#fca4c0" opacity="0.8"/>
+      <path d="M5,-2 C9,-6 14,-4 13,2 C12,7 7,6 3,1" fill="#fcaec6" opacity="0.85"/>
+      <path d="M-2,5 C-3,10 -8,11 -10,6 C-12,2 -7,1 -2,3" fill="#fed0df" opacity="0.85"/>
+      <path d="M3,4 C7,8 11,6 10,1 C9,-3 5,-1 2,2" fill="#f894b2" opacity="0.8"/>
+      <circle cx="0" cy="0" r="4" fill="#fff5f8" opacity="0.9"/>
+    </g>
+  </defs>
+  <rect width="900" height="340" fill="#05030d"/>
+  <rect width="900" height="340" fill="url(#skyGlow)"/>
+  <rect width="900" height="340" fill="url(#milkyWay)"/>
+
+  <circle cx="35" cy="45" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="78" cy="25" r="1.0" fill="#e8e0ff"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.1s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="120" cy="60" r="1.5" fill="#ffffff"><animate attributeName="opacity" values="0.15;0.95;0.15" dur="1.9s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle cx="176" cy="55" r="1.1" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.85;0.1" dur="3.5s" begin="1.3s" repeatCount="indefinite"/></circle>
+  <circle cx="230" cy="24" r="1.3" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.92;0.1" dur="2.1s" begin="0.2s" repeatCount="indefinite"/></circle>
+  <circle cx="272" cy="48" r="1.0" fill="#fff5e0"><animate attributeName="opacity" values="0.15;0.88;0.15" dur="4.0s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <circle cx="342" cy="22" r="1.4" fill="#ffffff"><animate attributeName="opacity" values="0.15;0.96;0.15" dur="2.8s" begin="1.0s" repeatCount="indefinite"/></circle>
+  <circle cx="392" cy="42" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.82;0.1" dur="3.3s" begin="0.3s" repeatCount="indefinite"/></circle>
+  <circle cx="462" cy="28" r="1.0" fill="#e8e0ff"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="2.5s" begin="0.7s" repeatCount="indefinite"/></circle>
+  <circle cx="512" cy="52" r="1.3" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.88;0.1" dur="3.7s" begin="1.4s" repeatCount="indefinite"/></circle>
+  <circle cx="562" cy="18" r="1.5" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.97;0.1" dur="2.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <circle cx="622" cy="38" r="1.1" fill="#fff5e0"><animate attributeName="opacity" values="0.15;0.83;0.15" dur="3.9s" begin="0.1s" repeatCount="indefinite"/></circle>
+  <circle cx="678" cy="20" r="1.3" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.92;0.1" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="725" cy="45" r="1.0" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.86;0.1" dur="3.2s" begin="1.1s" repeatCount="indefinite"/></circle>
+  <circle cx="788" cy="22" r="1.4" fill="#e8e0ff"><animate attributeName="opacity" values="0.2;0.97;0.2" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+  <circle cx="855" cy="38" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.84;0.1" dur="3.6s" begin="0.7s" repeatCount="indefinite"/></circle>
+  <circle cx="888" cy="58" r="1.0" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.9s" begin="1.2s" repeatCount="indefinite"/></circle>
+  <circle cx="28" cy="75" r="1.0" fill="#fff5e0"><animate attributeName="opacity" values="0.15;0.87;0.15" dur="3.4s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle cx="102" cy="88" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.91;0.1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></circle>
+  <circle cx="160" cy="72" r="1.4" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.96;0.1" dur="3.1s" begin="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="420" cy="72" r="1.0" fill="#e8e0ff"><animate attributeName="opacity" values="0.15;0.88;0.15" dur="2.6s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle cx="488" cy="88" r="1.1" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.84;0.1" dur="2.7s" begin="1.0s" repeatCount="indefinite"/></circle>
+  <circle cx="548" cy="92" r="1.4" fill="#fff5e0"><animate attributeName="opacity" values="0.15;0.95;0.15" dur="3.8s" begin="0.5s" repeatCount="indefinite"/></circle>
+  <circle cx="615" cy="80" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.88;0.1" dur="3.0s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="75" r="1.1" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.86;0.1" dur="3.3s" begin="0.6s" repeatCount="indefinite"/></circle>
+
+  
+  <g id="elqui-crescent-moon" transform="translate(850, 52)">
+    <g transform="rotate(-25)">
+      
+      <path d="M 0,-19 A 19,19 0 0,1 0,19 A 22,22 0 0,0 0,-19 Z" 
+            stroke="#fdf3cf" stroke-width="3.5" fill="none" opacity="0.15"/>
+      <path d="M 0,-19 A 19,19 0 0,1 0,19 A 22,22 0 0,0 0,-19 Z" 
+            stroke="#fffde8" stroke-width="1.8" fill="none" opacity="0.3"/>
+      
+      <path d="M 0,-19 
+               A 19,19 0 0,1 0,19 
+               A 22,22 0 0,0 0,-19 Z" 
+            fill="url(#lunarGoldGrad)"/>
+      
+      <path d="M 0,-19 A 19,19 0 0,1 0,19" 
+            stroke="#ffffff" stroke-width="0.8" fill="none" opacity="0.95"/>
+    </g>
   </g>
-  <!-- Ancestral glow around toki -->
-  <circle cx="535" cy="150" r="48" fill="#E05A7A" opacity="0.04"/>
-  <circle cx="535" cy="150" r="30" fill="#E05A7A" opacity="0.04"/>
-</g>
 
-<!-- ═══════════════════════════════════ -->
-<!-- AÑAÑUCA FLOWERS at ground          -->
-<!-- Phycella cyrtanthoides - endemic to Norte Chico -->
-<!-- ═══════════════════════════════════ -->
+  
+  
+  <g id="mountain-far-andes">
+    <path d="M 0,340 
+             L 0,260
+             C 120,250 220,235 320,210
+             C 385,190 425,160 465,145
+             C 500,122 525,95 560,105
+             C 595,115 625,145 660,132
+             C 695,118 720,85 755,95
+             C 790,108 820,98 850,112
+             C 872,122 890,118 900,115
+             L 900,340 Z" 
+          fill="url(#farCordilleraGrad)"/>
+    <path d="M 0,260
+             C 120,250 220,235 320,210
+             C 385,190 425,160 465,145
+             C 500,122 525,95 560,105
+             C 595,115 625,145 660,132
+             C 695,118 720,85 755,95
+             C 790,108 820,98 850,112
+             C 872,122 890,118 900,115" 
+          stroke="url(#farCrestGrad)" stroke-width="1.2" fill="none"/>
+  </g>
 
-<!-- Añañuca 1 (full bloom) -->
-<g transform="translate(44, 298)">
-  <line x1="0" y1="0" x2="0" y2="16" stroke="#244815" stroke-width="1.6"/>
-  <ellipse cx="0" cy="-8" rx="3.5" ry="9" fill="#d02010"/><ellipse cx="0" cy="-8" rx="3.5" ry="9" fill="#d02010" transform="rotate(60 0 0)"/>
-  <ellipse cx="0" cy="-8" rx="3.5" ry="9" fill="#b81808" transform="rotate(120 0 0)"/><ellipse cx="0" cy="-8" rx="3.5" ry="9" fill="#d02010" transform="rotate(180 0 0)"/>
-  <ellipse cx="0" cy="-8" rx="3.5" ry="9" fill="#c01810" transform="rotate(240 0 0)"/><ellipse cx="0" cy="-8" rx="3.5" ry="9" fill="#d02010" transform="rotate(300 0 0)"/>
-  <circle cx="0" cy="0" r="3.2" fill="#f8c828" opacity="0.95"/>
-</g>
-<!-- Añañuca 2 (full bloom, slightly taller) -->
-<g transform="translate(74, 293)">
-  <line x1="0" y1="0" x2="0" y2="20" stroke="#244815" stroke-width="1.6"/>
-  <ellipse cx="0" cy="-7" rx="3.2" ry="8.5" fill="#d82818" transform="rotate(10 0 0)"/>
-  <ellipse cx="0" cy="-7" rx="3.2" ry="8.5" fill="#bf1808" transform="rotate(70 0 0)"/>
-  <ellipse cx="0" cy="-7" rx="3.2" ry="8.5" fill="#d82818" transform="rotate(130 0 0)"/>
-  <ellipse cx="0" cy="-7" rx="3.2" ry="8.5" fill="#c82012" transform="rotate(190 0 0)"/>
-  <ellipse cx="0" cy="-7" rx="3.2" ry="8.5" fill="#d82818" transform="rotate(250 0 0)"/>
-  <ellipse cx="0" cy="-7" rx="3.2" ry="8.5" fill="#bf1808" transform="rotate(310 0 0)"/>
-  <circle cx="0" cy="0" r="3" fill="#f8c828" opacity="0.95"/>
-</g>
-<!-- Añañuca 3 (smaller, slightly open) -->
-<g transform="translate(28, 305)">
-  <line x1="0" y1="0" x2="0" y2="10" stroke="#244815" stroke-width="1.2"/>
-  <ellipse cx="0" cy="-5.5" rx="2.8" ry="7" fill="#d02010" transform="rotate(-8 0 0)"/>
-  <ellipse cx="0" cy="-5.5" rx="2.8" ry="7" fill="#b81808" transform="rotate(52 0 0)"/>
-  <ellipse cx="0" cy="-5.5" rx="2.8" ry="7" fill="#d02010" transform="rotate(112 0 0)"/>
-  <ellipse cx="0" cy="-5.5" rx="2.8" ry="7" fill="#c01810" transform="rotate(172 0 0)"/>
-  <ellipse cx="0" cy="-5.5" rx="2.8" ry="7" fill="#d02010" transform="rotate(232 0 0)"/>
-  <ellipse cx="0" cy="-5.5" rx="2.8" ry="7" fill="#b81808" transform="rotate(292 0 0)"/>
-  <circle cx="0" cy="0" r="2.2" fill="#f8c828" opacity="0.9"/>
-</g>
-<!-- Añañuca 4 (bud, barely open) -->
-<g transform="translate(100, 304)">
-  <line x1="0" y1="0" x2="0" y2="8" stroke="#244815" stroke-width="1.0"/>
-  <ellipse cx="0" cy="-4" rx="2.2" ry="5.5" fill="#d02010" transform="rotate(0 0 0)"/>
-  <ellipse cx="0" cy="-4" rx="2.2" ry="5.5" fill="#b81808" transform="rotate(60 0 0)"/>
-  <ellipse cx="0" cy="-4" rx="2.2" ry="5.5" fill="#d02010" transform="rotate(120 0 0)"/>
-  <ellipse cx="0" cy="-4" rx="2.2" ry="5.5" fill="#c01810" transform="rotate(180 0 0)"/>
-  <ellipse cx="0" cy="-4" rx="2.2" ry="5.5" fill="#d02010" transform="rotate(240 0 0)"/>
-  <ellipse cx="0" cy="-4" rx="2.2" ry="5.5" fill="#b81808" transform="rotate(300 0 0)"/>
-  <circle cx="0" cy="0" r="1.8" fill="#f8c828" opacity="0.85"/>
-</g>
+  
+  <g id="mountain-mid-tololo">
+    <path d="M 0,340 
+             L 0,285
+             C 140,275 250,260 360,235
+             C 440,208 495,215 555,180
+             C 595,154 625,176 665,154
+             C 705,132 735,146 770,130
+             C 805,118 835,138 865,130
+             C 885,124 896,128 900,125
+             L 900,340 Z" 
+          fill="url(#midTololoGrad)"/>
+    <path d="M 0,285
+             C 140,275 250,260 360,235
+             C 440,208 495,215 555,180
+             C 595,154 625,176 665,154
+             C 705,132 735,146 770,130
+             C 805,118 835,138 865,130
+             C 885,124 896,128 900,125" 
+          stroke="url(#midCrestGrad)" stroke-width="1.2" fill="none"/>
 
-<!-- ═══════════════════════════════════ -->
-<!-- FALLING PETALS (animated)          -->
-<!-- ═══════════════════════════════════ -->
-<ellipse cx="178" cy="86" rx="7" ry="3.5" fill="#f5c5d0" opacity="0.9">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="50 200" dur="7s" begin="0s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.9;0.9;0" dur="7s" begin="0s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="216" cy="70" rx="6" ry="3" fill="#E05A7A" opacity="0.85">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="40 205" dur="5.5s" begin="1.3s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.85;0.85;0" dur="5.5s" begin="1.3s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="250" cy="80" rx="7" ry="3" fill="#fce8f0" opacity="0.9">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="55 195" dur="8s" begin="2.8s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.9;0.9;0" dur="8s" begin="2.8s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="140" cy="106" rx="5.5" ry="2.5" fill="#f5c5d0" opacity="0.8">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="44 188" dur="6.2s" begin="0.8s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.8;0.8;0" dur="6.2s" begin="0.8s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="300" cy="86" rx="6.5" ry="3" fill="#ff9fbe" opacity="0.85">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="46 198" dur="7.5s" begin="3.6s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.85;0.85;0" dur="7.5s" begin="3.6s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="338" cy="104" rx="6" ry="2.5" fill="#fce8f0" opacity="0.85">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="38 190" dur="6.8s" begin="1.9s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.85;0.85;0" dur="6.8s" begin="1.9s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="202" cy="116" rx="7" ry="3" fill="#E05A7A" opacity="0.75">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="52 175" dur="5.8s" begin="4.3s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.75;0.75;0" dur="5.8s" begin="4.3s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="266" cy="96" rx="5.5" ry="3" fill="#f5c5d0" opacity="0.85">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="47 193" dur="7.2s" begin="2.3s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.85;0.85;0" dur="7.2s" begin="2.3s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="376" cy="115" rx="6" ry="2.5" fill="#f5c5d0" opacity="0.8">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="42 185" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.8;0.8;0" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
-</ellipse>
-<ellipse cx="164" cy="78" rx="5" ry="2.5" fill="#fce8f0" opacity="0.8">
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="35 185" dur="6.0s" begin="5.2s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.8;0.8;0" dur="6.0s" begin="5.2s" repeatCount="indefinite"/>
-</ellipse>
+    
+    <g id="observatorio-tololo" transform="translate(770, 130)">
+      <rect x="-8" y="-7" width="16" height="8" rx="1.2" fill="#20153c" stroke="#3d2864" stroke-width="0.6"/>
+      <path d="M -8,-7 C -8,-16 8,-16 8,-7 Z" fill="#2d1c54" stroke="#543a85" stroke-width="0.7"/>
+      <line x1="0" y1="-15" x2="0" y2="-7" stroke="#0e071e" stroke-width="1.8"/>
+      
+      <line x1="0" y1="-15" x2="-2" y2="-55" stroke="#f04d7c" stroke-width="0.9" opacity="0.65"/>
+      <circle cx="-2" cy="-55" r="1.3" fill="#ffa8c5" opacity="0.85"/>
+    </g>
+  </g>
 
-<!-- ═══════════════════════════════════ -->
-<!-- TEXT OVERLAY (right portion)       -->
-<!-- ═══════════════════════════════════ -->
-<text x="700" y="192" font-family="'Courier New',Courier,monospace" font-size="34" font-weight="bold" fill="#E05A7A" text-anchor="middle" opacity="0.96">Martín</text>
-<line x1="598" y1="200" x2="802" y2="200" stroke="#E05A7A" stroke-width="0.8" opacity="0.35"/>
-<text x="700" y="222" font-family="'Courier New',Courier,monospace" font-size="12" fill="#9ea8b5" text-anchor="middle" opacity="0.88">IT Engineering · Cybersecurity · IoT</text>
-<text x="700" y="242" font-family="'Courier New',Courier,monospace" font-size="10.5" fill="#6e7681" text-anchor="middle" opacity="0.8">Coquimbo, Norte Chico · Chile</text>
-<line x1="650" y1="254" x2="750" y2="254" stroke="#3d2030" stroke-width="0.5" opacity="0.6"/>
-<text x="700" y="272" font-family="'Courier New',Courier,monospace" font-size="9.2" fill="#c9a0b0" text-anchor="middle" font-style="italic" opacity="0.72">Como la añañuca que duerme bajo la aridez</text>
-<text x="700" y="289" font-family="'Courier New',Courier,monospace" font-size="9.2" fill="#c9a0b0" text-anchor="middle" font-style="italic" opacity="0.72">y florece despues de la lluvia, sin aviso...</text>
+  
+  <g id="mountain-near-valle">
+    <path d="M 0,340 
+             L 0,305
+             C 160,300 290,285 420,260
+             C 505,235 580,240 655,205
+             C 715,178 760,198 815,172
+             C 855,158 882,170 900,165
+             L 900,340 Z" 
+          fill="url(#nearValleyGrad)"/>
+    <path d="M 0,305
+             C 160,300 290,285 420,260
+             C 505,235 580,240 655,205
+             C 715,178 760,198 815,172
+             C 855,158 882,170 900,165" 
+          stroke="#3d205a" stroke-width="1.1" fill="none" opacity="0.5"/>
+  </g>
 
-<!-- Right side ground fill -->
-<rect x="490" y="310" width="410" height="30" fill="#05030d"/>
+  
+  <rect x="0" y="315" width="900" height="25" fill="#05030d"/>
+  <line x1="0" y1="315" x2="900" y2="315" stroke="#180718" stroke-width="0.8"/>
+  <g id="duraznero-trunk">
+    
+    <path d="M156,340 C170,328 188,316 202,296 C214,276 226,252 225,228 C224,208 214,190 198,172
+             C208,170 218,170 228,174
+             C236,188 244,210 248,230 C250,254 246,278 242,296 C246,316 262,328 284,340
+             L 156,340 Z"
+          fill="url(#barkGradient)"/>
 
+    
+    <path d="M162,338 C176,328 192,314 204,296 C214,280 220,262 222,246" stroke="#100401" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M274,338 C260,326 248,310 240,292 C234,274 230,256 228,242" stroke="#100401" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <path d="M182,339 C194,330 204,318 214,302 C222,284 226,268 226,252" stroke="#220b04" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M256,339 C246,330 238,318 232,302 C228,284 226,268 226,252" stroke="#220b04" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    
+    <path d="M210,318 C218,290 230,260 232,230 C232,212 225,195 216,176" stroke="#542812" stroke-width="5.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M216,312 C224,285 234,256 235,226 C234,210 228,194 220,176" stroke="#6e371b" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <path d="M204,306 C212,282 222,256 224,228" stroke="#0e0301" stroke-width="3" fill="none" opacity="0.85"/>
+    <path d="M226,306 C234,282 240,256 238,228" stroke="#0e0301" stroke-width="3" fill="none" opacity="0.85"/>
+
+    
+    <ellipse cx="220" cy="336" rx="76" ry="6" fill="url(#soilGlow)" opacity="0.9"/>
+    <path d="M150,340 C168,323 194,316 220,316 C246,316 272,323 290,340 Z" fill="url(#groundSoilMist)" opacity="0.85"/>
+    <ellipse cx="166" cy="338" rx="16" ry="4" fill="url(#soilGlow)" opacity="0.7"/>
+    <ellipse cx="270" cy="338" rx="16" ry="4" fill="url(#soilGlow)" opacity="0.7"/>
+  </g>
+  <g id="blossom-cloud-canopy">
+    <g id="layer-deep" opacity="0.85">
+    <use href="#dab-deep" transform="translate(227.0, 90.6) scale(1.72) rotate(207)"/>
+    <use href="#dab-deep" transform="translate(177.3, 109.3) scale(1.68) rotate(115)"/>
+    <use href="#dab-deep" transform="translate(257.6, 43.3) scale(1.26) rotate(358)"/>
+    <use href="#dab-deep" transform="translate(242.8, 135.5) scale(1.54) rotate(253)"/>
+    <use href="#dab-deep" transform="translate(216.7, 177.5) scale(1.79) rotate(82)"/>
+    <use href="#dab-deep" transform="translate(196.0, 95.2) scale(1.21) rotate(72)"/>
+    <use href="#dab-deep" transform="translate(309.4, 99.6) scale(1.31) rotate(243)"/>
+    <use href="#dab-deep" transform="translate(292.0, 168.1) scale(1.53) rotate(333)"/>
+    <use href="#dab-deep" transform="translate(106.0, 120.1) scale(1.65) rotate(47)"/>
+    <use href="#dab-deep" transform="translate(170.8, 72.9) scale(1.65) rotate(87)"/>
+    <use href="#dab-deep" transform="translate(323.9, 151.2) scale(1.34) rotate(286)"/>
+    <use href="#dab-deep" transform="translate(206.3, 152.5) scale(1.23) rotate(278)"/>
+    <use href="#dab-deep" transform="translate(181.9, 113.6) scale(1.75) rotate(199)"/>
+    <use href="#dab-deep" transform="translate(246.2, 132.1) scale(1.68) rotate(75)"/>
+    <use href="#dab-deep" transform="translate(158.0, 104.5) scale(1.35) rotate(213)"/>
+    <use href="#dab-deep" transform="translate(310.3, 53.6) scale(1.80) rotate(13)"/>
+    <use href="#dab-deep" transform="translate(95.1, 98.8) scale(1.54) rotate(309)"/>
+    <use href="#dab-deep" transform="translate(252.8, 106.2) scale(1.43) rotate(112)"/>
+    <use href="#dab-deep" transform="translate(224.0, 92.2) scale(1.57) rotate(332)"/>
+    <use href="#dab-deep" transform="translate(302.2, 119.8) scale(1.67) rotate(332)"/>
+    <use href="#dab-deep" transform="translate(187.4, 84.1) scale(1.25) rotate(294)"/>
+    <use href="#dab-deep" transform="translate(292.6, 134.0) scale(1.29) rotate(291)"/>
+    <use href="#dab-deep" transform="translate(150.1, 131.6) scale(1.22) rotate(351)"/>
+    <use href="#dab-deep" transform="translate(190.4, 95.1) scale(1.38) rotate(163)"/>
+    <use href="#dab-deep" transform="translate(357.5, 104.9) scale(1.55) rotate(348)"/>
+    <use href="#dab-deep" transform="translate(175.9, 91.8) scale(1.22) rotate(176)"/>
+    <use href="#dab-deep" transform="translate(268.3, 78.6) scale(1.47) rotate(125)"/>
+    <use href="#dab-deep" transform="translate(166.0, 85.0) scale(1.67) rotate(160)"/>
+    <use href="#dab-deep" transform="translate(203.9, 118.4) scale(1.63) rotate(332)"/>
+    <use href="#dab-deep" transform="translate(247.7, 65.7) scale(1.64) rotate(101)"/>
+    <use href="#dab-deep" transform="translate(123.4, 142.8) scale(1.40) rotate(15)"/>
+    <use href="#dab-deep" transform="translate(177.3, 129.0) scale(1.65) rotate(116)"/>
+    <use href="#dab-deep" transform="translate(280.9, 60.4) scale(1.61) rotate(10)"/>
+    <use href="#dab-deep" transform="translate(235.3, 48.7) scale(1.56) rotate(206)"/>
+    <use href="#dab-deep" transform="translate(195.3, 151.9) scale(1.78) rotate(263)"/>
+    <use href="#dab-deep" transform="translate(278.3, 159.9) scale(1.78) rotate(312)"/>
+    <use href="#dab-deep" transform="translate(222.1, 88.4) scale(1.36) rotate(115)"/>
+    <use href="#dab-deep" transform="translate(139.1, 142.5) scale(1.73) rotate(48)"/>
+    <use href="#dab-deep" transform="translate(281.7, 77.8) scale(1.66) rotate(66)"/>
+    <use href="#dab-deep" transform="translate(228.8, 78.7) scale(1.28) rotate(272)"/>
+    <use href="#dab-deep" transform="translate(109.9, 136.6) scale(1.30) rotate(329)"/>
+    <use href="#dab-deep" transform="translate(116.4, 147.3) scale(1.46) rotate(223)"/>
+    <use href="#dab-deep" transform="translate(260.4, 117.5) scale(1.57) rotate(138)"/>
+    <use href="#dab-deep" transform="translate(302.6, 80.1) scale(1.36) rotate(75)"/>
+    <use href="#dab-deep" transform="translate(295.9, 63.7) scale(1.71) rotate(129)"/>
+    <use href="#dab-deep" transform="translate(271.7, 136.2) scale(1.30) rotate(325)"/>
+    <use href="#dab-deep" transform="translate(274.9, 144.9) scale(1.59) rotate(21)"/>
+    <use href="#dab-deep" transform="translate(140.5, 99.2) scale(1.77) rotate(130)"/>
+    <use href="#dab-deep" transform="translate(106.0, 138.5) scale(1.74) rotate(85)"/>
+    <use href="#dab-deep" transform="translate(234.7, 145.0) scale(1.76) rotate(256)"/>
+    <use href="#dab-deep" transform="translate(65.4, 116.9) scale(1.60) rotate(59)"/>
+    <use href="#dab-deep" transform="translate(282.3, 109.3) scale(1.61) rotate(6)"/>
+    <use href="#dab-deep" transform="translate(135.4, 91.7) scale(1.39) rotate(223)"/>
+    <use href="#dab-deep" transform="translate(204.0, 76.6) scale(1.44) rotate(357)"/>
+    <use href="#dab-deep" transform="translate(178.9, 83.2) scale(1.26) rotate(102)"/>
+    <use href="#dab-deep" transform="translate(181.8, 179.5) scale(1.59) rotate(166)"/>
+    <use href="#dab-deep" transform="translate(241.0, 94.2) scale(1.64) rotate(302)"/>
+    <use href="#dab-deep" transform="translate(221.0, 131.6) scale(1.30) rotate(223)"/>
+    <use href="#dab-deep" transform="translate(257.6, 179.7) scale(1.47) rotate(28)"/>
+    <use href="#dab-deep" transform="translate(220.6, 126.4) scale(1.35) rotate(4)"/>
+    <use href="#dab-deep" transform="translate(340.9, 79.6) scale(1.33) rotate(103)"/>
+    <use href="#dab-deep" transform="translate(116.6, 128.7) scale(1.56) rotate(185)"/>
+    <use href="#dab-deep" transform="translate(132.0, 153.9) scale(1.51) rotate(213)"/>
+    <use href="#dab-deep" transform="translate(219.9, 77.3) scale(1.41) rotate(322)"/>
+    <use href="#dab-deep" transform="translate(219.0, 88.8) scale(1.29) rotate(329)"/>
+    <use href="#dab-deep" transform="translate(163.8, 81.0) scale(1.25) rotate(340)"/>
+    <use href="#dab-deep" transform="translate(90.0, 135.4) scale(1.78) rotate(276)"/>
+    <use href="#dab-deep" transform="translate(190.1, 146.6) scale(1.51) rotate(80)"/>
+    <use href="#dab-deep" transform="translate(309.0, 69.5) scale(1.51) rotate(218)"/>
+    <use href="#dab-deep" transform="translate(334.5, 156.1) scale(1.50) rotate(270)"/>
+    </g>
+  <g id="duraznero-branches">
+    
+    <path d="M216,192 C188,190 158,188 132,188 C116,188 104,189 96,190" stroke="#220d04" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+    <path d="M216,192 C188,190 158,188 132,188 C116,188 104,189 96,190" stroke="#421d0b" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+
+    
+    <path d="M198,172 C178,160 156,148 136,132 C120,118 106,104 92,88" stroke="#220d04" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <path d="M198,172 C178,160 156,148 136,132 C120,118 106,104 92,88" stroke="#421d0b" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+    
+    <path d="M136,132 C130,114 128,96 132,76 C136,62 144,48 152,36" stroke="#2a1206" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M136,132 C130,114 128,96 132,76 C136,62 144,48 152,36" stroke="#4e2410" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    
+    <path d="M92,88 C80,76 72,62 66,48" stroke="#361708" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M92,88 C86,74 84,60 88,46" stroke="#361708" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M92,88 C82,100 70,112 56,122" stroke="#2a1206" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M132,76 C126,64 126,52 130,42" stroke="#361708" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    
+    <path d="M228,196 C248,190 268,186 288,184 C304,182 322,182 338,184" stroke="#220d04" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+    <path d="M228,196 C248,190 268,186 288,184 C304,182 322,182 338,184" stroke="#421d0b" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    
+    <path d="M228,174 C254,160 282,146 310,130 C336,116 362,102 388,88" stroke="#220d04" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <path d="M228,174 C254,160 282,146 310,130 C336,116 362,102 388,88" stroke="#421d0b" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+    
+    <path d="M310,130 C326,114 344,100 364,86 C380,74 398,64 416,56" stroke="#2a1206" stroke-width="7.5" fill="none" stroke-linecap="round"/>
+    <path d="M310,130 C326,114 344,100 364,86 C380,74 398,64 416,56" stroke="#4e2410" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    
+    <path d="M388,88 C406,80 424,74 442,70" stroke="#361708" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M388,88 C404,96 420,102 436,108" stroke="#2a1206" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M416,56 C432,50 448,46 464,44" stroke="#361708" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M344,100 C358,110 372,118 388,124" stroke="#2a1206" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    
+    <path d="M208,172 C206,148 204,122 204,98 C204,76 206,54 210,34" stroke="#220d04" stroke-width="9.5" fill="none" stroke-linecap="round"/>
+    <path d="M208,172 C206,148 204,122 204,98 C204,76 206,54 210,34" stroke="#421d0b" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M204,98 C194,80 186,62 180,44" stroke="#2a1206" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M210,34 C208,24 210,18 214,14" stroke="#361708" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    
+    <path d="M220,172 C226,148 232,122 238,98 C244,76 250,56 258,38" stroke="#220d04" stroke-width="9.5" fill="none" stroke-linecap="round"/>
+    <path d="M220,172 C226,148 232,122 238,98 C244,76 250,56 258,38" stroke="#421d0b" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M238,98 C252,82 268,66 284,52" stroke="#2a1206" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M258,38 C266,28 276,22 288,18" stroke="#361708" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  </g>
+    <g id="layer-mid" opacity="0.92">
+    <use href="#dab-mid" transform="translate(229.1, 118.5) scale(1.18) rotate(215)"/>
+    <use href="#dab-mid" transform="translate(179.1, 109.3) scale(1.22) rotate(76)"/>
+    <use href="#dab-mid" transform="translate(228.3, 132.8) scale(1.06) rotate(193)"/>
+    <use href="#dab-mid" transform="translate(296.9, 75.3) scale(1.41) rotate(204)"/>
+    <use href="#dab-mid" transform="translate(311.5, 115.5) scale(1.15) rotate(73)"/>
+    <use href="#dab-mid" transform="translate(271.8, 165.2) scale(1.11) rotate(329)"/>
+    <use href="#dab-mid" transform="translate(234.4, 67.2) scale(1.17) rotate(323)"/>
+    <use href="#dab-mid" transform="translate(133.1, 150.1) scale(1.01) rotate(189)"/>
+    <use href="#dab-mid" transform="translate(279.5, 126.9) scale(1.33) rotate(16)"/>
+    <use href="#dab-mid" transform="translate(255.5, 140.8) scale(1.61) rotate(214)"/>
+    <use href="#dab-mid" transform="translate(234.7, 93.6) scale(1.36) rotate(207)"/>
+    <use href="#dab-mid" transform="translate(165.4, 127.6) scale(1.25) rotate(256)"/>
+    <use href="#dab-mid" transform="translate(303.9, 171.9) scale(1.37) rotate(242)"/>
+    <use href="#dab-mid" transform="translate(193.8, 124.7) scale(1.50) rotate(303)"/>
+    <use href="#dab-mid" transform="translate(235.8, 110.2) scale(1.47) rotate(202)"/>
+    <use href="#dab-mid" transform="translate(292.9, 120.8) scale(1.18) rotate(205)"/>
+    <use href="#dab-mid" transform="translate(270.2, 86.7) scale(1.48) rotate(85)"/>
+    <use href="#dab-mid" transform="translate(335.0, 128.0) scale(1.12) rotate(289)"/>
+    <use href="#dab-mid" transform="translate(229.7, 63.6) scale(1.61) rotate(240)"/>
+    <use href="#dab-mid" transform="translate(129.7, 108.3) scale(1.68) rotate(111)"/>
+    <use href="#dab-mid" transform="translate(166.3, 83.1) scale(1.06) rotate(154)"/>
+    <use href="#dab-mid" transform="translate(265.0, 105.7) scale(1.01) rotate(305)"/>
+    <use href="#dab-mid" transform="translate(257.5, 59.0) scale(1.50) rotate(249)"/>
+    <use href="#dab-mid" transform="translate(215.4, 93.3) scale(1.14) rotate(39)"/>
+    <use href="#dab-mid" transform="translate(177.3, 95.7) scale(1.09) rotate(112)"/>
+    <use href="#dab-mid" transform="translate(213.7, 98.6) scale(1.48) rotate(146)"/>
+    <use href="#dab-mid" transform="translate(87.3, 81.6) scale(1.00) rotate(36)"/>
+    <use href="#dab-mid" transform="translate(204.1, 105.9) scale(1.14) rotate(358)"/>
+    <use href="#dab-mid" transform="translate(279.4, 130.8) scale(1.32) rotate(152)"/>
+    <use href="#dab-mid" transform="translate(268.0, 94.9) scale(1.42) rotate(280)"/>
+    <use href="#dab-mid" transform="translate(287.2, 112.5) scale(1.03) rotate(288)"/>
+    <use href="#dab-mid" transform="translate(202.1, 112.3) scale(1.69) rotate(119)"/>
+    <use href="#dab-mid" transform="translate(300.5, 173.3) scale(1.11) rotate(191)"/>
+    <use href="#dab-mid" transform="translate(211.8, 126.0) scale(1.23) rotate(29)"/>
+    <use href="#dab-mid" transform="translate(319.2, 161.6) scale(1.39) rotate(143)"/>
+    <use href="#dab-mid" transform="translate(96.0, 105.8) scale(1.28) rotate(306)"/>
+    <use href="#dab-mid" transform="translate(221.3, 98.0) scale(1.58) rotate(164)"/>
+    <use href="#dab-mid" transform="translate(262.5, 33.2) scale(1.03) rotate(129)"/>
+    <use href="#dab-mid" transform="translate(319.0, 157.5) scale(1.25) rotate(176)"/>
+    <use href="#dab-mid" transform="translate(204.5, 117.5) scale(1.26) rotate(265)"/>
+    <use href="#dab-mid" transform="translate(182.9, 51.2) scale(1.07) rotate(231)"/>
+    <use href="#dab-mid" transform="translate(225.2, 77.0) scale(1.08) rotate(104)"/>
+    <use href="#dab-mid" transform="translate(286.4, 120.4) scale(1.29) rotate(230)"/>
+    <use href="#dab-mid" transform="translate(240.1, 159.8) scale(1.01) rotate(66)"/>
+    <use href="#dab-mid" transform="translate(177.9, 105.4) scale(1.47) rotate(53)"/>
+    <use href="#dab-mid" transform="translate(237.3, 146.1) scale(1.12) rotate(205)"/>
+    <use href="#dab-mid" transform="translate(234.6, 90.2) scale(1.06) rotate(36)"/>
+    <use href="#dab-mid" transform="translate(169.1, 88.5) scale(1.34) rotate(185)"/>
+    <use href="#dab-mid" transform="translate(220.8, 94.1) scale(1.33) rotate(231)"/>
+    <use href="#dab-mid" transform="translate(137.9, 42.3) scale(1.47) rotate(349)"/>
+    <use href="#dab-mid" transform="translate(155.6, 123.7) scale(1.55) rotate(119)"/>
+    <use href="#dab-mid" transform="translate(234.6, 95.9) scale(1.59) rotate(262)"/>
+    <use href="#dab-mid" transform="translate(233.1, 162.0) scale(1.21) rotate(201)"/>
+    <use href="#dab-mid" transform="translate(191.1, 107.1) scale(1.66) rotate(276)"/>
+    <use href="#dab-mid" transform="translate(201.0, 138.5) scale(1.20) rotate(234)"/>
+    <use href="#dab-mid" transform="translate(91.5, 132.4) scale(1.23) rotate(66)"/>
+    <use href="#dab-mid" transform="translate(268.4, 64.0) scale(1.63) rotate(28)"/>
+    <use href="#dab-mid" transform="translate(265.9, 108.1) scale(1.10) rotate(48)"/>
+    <use href="#dab-mid" transform="translate(186.5, 136.7) scale(1.35) rotate(294)"/>
+    <use href="#dab-mid" transform="translate(118.8, 93.5) scale(1.31) rotate(8)"/>
+    <use href="#dab-mid" transform="translate(246.2, 169.8) scale(1.31) rotate(83)"/>
+    <use href="#dab-mid" transform="translate(257.9, 102.0) scale(1.36) rotate(218)"/>
+    <use href="#dab-mid" transform="translate(170.4, 68.8) scale(1.22) rotate(332)"/>
+    <use href="#dab-mid" transform="translate(178.4, 140.9) scale(1.15) rotate(8)"/>
+    <use href="#dab-mid" transform="translate(361.5, 131.6) scale(1.63) rotate(301)"/>
+    <use href="#dab-mid" transform="translate(193.5, 97.9) scale(1.21) rotate(13)"/>
+    <use href="#dab-mid" transform="translate(208.8, 96.5) scale(1.40) rotate(148)"/>
+    <use href="#dab-mid" transform="translate(292.8, 128.9) scale(1.24) rotate(192)"/>
+    <use href="#dab-mid" transform="translate(77.9, 131.4) scale(1.30) rotate(249)"/>
+    <use href="#dab-mid" transform="translate(280.0, 153.8) scale(1.65) rotate(55)"/>
+    <use href="#dab-mid" transform="translate(202.9, 106.1) scale(1.68) rotate(168)"/>
+    <use href="#dab-mid" transform="translate(246.3, 100.9) scale(1.07) rotate(102)"/>
+    <use href="#dab-mid" transform="translate(145.3, 77.7) scale(1.67) rotate(104)"/>
+    <use href="#dab-mid" transform="translate(273.0, 169.4) scale(1.08) rotate(84)"/>
+    <use href="#dab-mid" transform="translate(236.9, 108.4) scale(1.62) rotate(112)"/>
+    <use href="#dab-mid" transform="translate(193.1, 106.8) scale(1.49) rotate(93)"/>
+    <use href="#dab-mid" transform="translate(201.8, 61.7) scale(1.62) rotate(103)"/>
+    <use href="#dab-mid" transform="translate(249.5, 112.2) scale(1.05) rotate(24)"/>
+    <use href="#dab-mid" transform="translate(168.3, 130.8) scale(1.03) rotate(252)"/>
+    <use href="#dab-mid" transform="translate(234.4, 99.3) scale(1.33) rotate(318)"/>
+    <use href="#dab-mid" transform="translate(204.0, 91.9) scale(1.26) rotate(55)"/>
+    <use href="#dab-mid" transform="translate(255.8, 102.5) scale(1.35) rotate(200)"/>
+    <use href="#dab-mid" transform="translate(194.2, 98.9) scale(1.10) rotate(89)"/>
+    <use href="#dab-mid" transform="translate(245.7, 48.0) scale(1.67) rotate(294)"/>
+    <use href="#dab-mid" transform="translate(192.6, 168.9) scale(1.37) rotate(193)"/>
+    <use href="#dab-mid" transform="translate(280.6, 37.6) scale(1.13) rotate(244)"/>
+    <use href="#dab-mid" transform="translate(137.5, 58.8) scale(1.32) rotate(190)"/>
+    <use href="#dab-mid" transform="translate(344.9, 68.1) scale(1.18) rotate(120)"/>
+    <use href="#dab-mid" transform="translate(232.4, 100.0) scale(1.64) rotate(37)"/>
+    <use href="#dab-mid" transform="translate(204.4, 107.3) scale(1.07) rotate(309)"/>
+    <use href="#dab-mid" transform="translate(279.7, 64.3) scale(1.30) rotate(117)"/>
+    <use href="#dab-mid" transform="translate(306.7, 167.2) scale(1.06) rotate(286)"/>
+    <use href="#dab-mid" transform="translate(185.5, 148.4) scale(1.32) rotate(348)"/>
+    <use href="#dab-mid" transform="translate(275.0, 119.9) scale(1.23) rotate(70)"/>
+    <use href="#dab-mid" transform="translate(198.3, 91.6) scale(1.09) rotate(226)"/>
+    <use href="#dab-mid" transform="translate(97.5, 104.7) scale(1.12) rotate(301)"/>
+    <use href="#dab-mid" transform="translate(166.3, 112.1) scale(1.38) rotate(148)"/>
+    <use href="#dab-mid" transform="translate(225.2, 88.2) scale(1.22) rotate(145)"/>
+    <use href="#dab-mid" transform="translate(217.7, 112.6) scale(1.06) rotate(321)"/>
+    <use href="#dab-mid" transform="translate(307.5, 53.8) scale(1.16) rotate(345)"/>
+    <use href="#dab-mid" transform="translate(257.1, 87.3) scale(1.29) rotate(79)"/>
+    <use href="#dab-mid" transform="translate(237.4, 129.5) scale(1.66) rotate(187)"/>
+    <use href="#dab-mid" transform="translate(227.1, 131.4) scale(1.13) rotate(336)"/>
+    <use href="#dab-mid" transform="translate(260.6, 124.8) scale(1.26) rotate(296)"/>
+    <use href="#dab-mid" transform="translate(243.0, 113.1) scale(1.39) rotate(359)"/>
+    <use href="#dab-mid" transform="translate(222.8, 181.7) scale(1.36) rotate(346)"/>
+    <use href="#dab-mid" transform="translate(156.4, 149.8) scale(1.36) rotate(163)"/>
+    <use href="#dab-mid" transform="translate(248.3, 120.9) scale(1.55) rotate(62)"/>
+    <use href="#dab-mid" transform="translate(191.3, 78.2) scale(1.22) rotate(100)"/>
+    <use href="#dab-mid" transform="translate(261.6, 158.1) scale(1.07) rotate(180)"/>
+    <use href="#dab-mid" transform="translate(353.9, 144.2) scale(1.36) rotate(72)"/>
+    <use href="#dab-mid" transform="translate(236.8, 128.2) scale(1.56) rotate(146)"/>
+    <use href="#dab-mid" transform="translate(133.3, 112.5) scale(1.61) rotate(9)"/>
+    <use href="#dab-mid" transform="translate(252.0, 117.3) scale(1.50) rotate(158)"/>
+    <use href="#dab-mid" transform="translate(214.5, 146.6) scale(1.19) rotate(291)"/>
+    <use href="#dab-mid" transform="translate(195.8, 92.8) scale(1.46) rotate(290)"/>
+    <use href="#dab-mid" transform="translate(347.6, 111.2) scale(1.55) rotate(74)"/>
+    <use href="#dab-mid" transform="translate(77.2, 127.1) scale(1.19) rotate(56)"/>
+    <use href="#dab-mid" transform="translate(170.0, 120.6) scale(1.02) rotate(253)"/>
+    <use href="#dab-mid" transform="translate(317.8, 69.0) scale(1.64) rotate(307)"/>
+    <use href="#dab-mid" transform="translate(146.9, 110.7) scale(1.02) rotate(309)"/>
+    <use href="#dab-mid" transform="translate(299.3, 148.4) scale(1.23) rotate(344)"/>
+    <use href="#dab-mid" transform="translate(211.3, 93.5) scale(1.14) rotate(141)"/>
+    <use href="#dab-mid" transform="translate(236.0, 97.4) scale(1.37) rotate(298)"/>
+    <use href="#dab-mid" transform="translate(71.7, 95.8) scale(1.44) rotate(333)"/>
+    <use href="#dab-mid" transform="translate(213.1, 174.5) scale(1.29) rotate(58)"/>
+    <use href="#dab-mid" transform="translate(361.0, 75.6) scale(1.40) rotate(268)"/>
+    <use href="#dab-mid" transform="translate(172.9, 149.7) scale(1.02) rotate(87)"/>
+    <use href="#dab-mid" transform="translate(75.3, 135.9) scale(1.53) rotate(10)"/>
+    <use href="#dab-mid" transform="translate(250.4, 105.4) scale(1.25) rotate(62)"/>
+    </g>
+    <g id="layer-light" opacity="0.88">
+    <use href="#dab-light" transform="translate(303.7, 76.9) scale(1.44) rotate(255)"/>
+    <use href="#dab-light" transform="translate(256.4, 61.6) scale(1.45) rotate(285)"/>
+    <use href="#dab-light" transform="translate(236.3, 84.6) scale(0.95) rotate(162)"/>
+    <use href="#dab-light" transform="translate(362.8, 70.1) scale(1.08) rotate(332)"/>
+    <use href="#dab-light" transform="translate(338.0, 52.8) scale(1.31) rotate(64)"/>
+    <use href="#dab-light" transform="translate(289.3, 55.4) scale(1.44) rotate(37)"/>
+    <use href="#dab-light" transform="translate(159.0, 83.6) scale(1.04) rotate(123)"/>
+    <use href="#dab-light" transform="translate(220.1, 34.9) scale(1.34) rotate(144)"/>
+    <use href="#dab-light" transform="translate(295.4, 104.8) scale(1.33) rotate(294)"/>
+    <use href="#dab-light" transform="translate(211.8, 73.4) scale(1.48) rotate(18)"/>
+    <use href="#dab-light" transform="translate(129.8, 84.7) scale(1.38) rotate(42)"/>
+    <use href="#dab-light" transform="translate(154.3, 71.4) scale(1.02) rotate(14)"/>
+    <use href="#dab-light" transform="translate(135.9, 80.9) scale(1.17) rotate(204)"/>
+    <use href="#dab-light" transform="translate(337.8, 56.7) scale(1.14) rotate(175)"/>
+    <use href="#dab-light" transform="translate(192.7, 81.8) scale(1.11) rotate(108)"/>
+    <use href="#dab-light" transform="translate(245.4, 69.5) scale(1.19) rotate(133)"/>
+    <use href="#dab-light" transform="translate(160.0, 90.3) scale(1.33) rotate(289)"/>
+    <use href="#dab-light" transform="translate(373.9, 91.3) scale(1.00) rotate(342)"/>
+    <use href="#dab-light" transform="translate(259.8, 61.1) scale(1.42) rotate(177)"/>
+    <use href="#dab-light" transform="translate(156.2, 66.9) scale(1.11) rotate(334)"/>
+    <use href="#dab-light" transform="translate(228.7, 42.6) scale(0.93) rotate(254)"/>
+    <use href="#dab-light" transform="translate(161.3, 53.5) scale(1.43) rotate(130)"/>
+    <use href="#dab-light" transform="translate(197.5, 88.4) scale(1.40) rotate(28)"/>
+    <use href="#dab-light" transform="translate(266.4, 96.7) scale(1.18) rotate(99)"/>
+    <use href="#dab-light" transform="translate(273.3, 85.4) scale(0.96) rotate(282)"/>
+    <use href="#dab-light" transform="translate(346.0, 62.2) scale(1.31) rotate(322)"/>
+    <use href="#dab-light" transform="translate(295.8, 109.8) scale(1.27) rotate(42)"/>
+    <use href="#dab-light" transform="translate(369.3, 103.2) scale(1.37) rotate(194)"/>
+    <use href="#dab-light" transform="translate(307.6, 81.8) scale(1.42) rotate(297)"/>
+    <use href="#dab-light" transform="translate(142.2, 62.9) scale(1.13) rotate(100)"/>
+    <use href="#dab-light" transform="translate(236.3, 89.3) scale(1.14) rotate(31)"/>
+    <use href="#dab-light" transform="translate(110.7, 74.1) scale(1.15) rotate(19)"/>
+    <use href="#dab-light" transform="translate(308.5, 109.8) scale(1.09) rotate(358)"/>
+    <use href="#dab-light" transform="translate(273.0, 93.7) scale(1.03) rotate(165)"/>
+    <use href="#dab-light" transform="translate(334.4, 71.7) scale(1.33) rotate(217)"/>
+    <use href="#dab-light" transform="translate(201.4, 91.5) scale(1.46) rotate(197)"/>
+    <use href="#dab-light" transform="translate(374.7, 101.7) scale(0.98) rotate(106)"/>
+    <use href="#dab-light" transform="translate(291.3, 66.7) scale(1.25) rotate(96)"/>
+    <use href="#dab-light" transform="translate(253.7, 70.5) scale(1.15) rotate(16)"/>
+    <use href="#dab-light" transform="translate(189.3, 79.6) scale(1.24) rotate(333)"/>
+    <use href="#dab-light" transform="translate(184.5, 51.4) scale(1.12) rotate(34)"/>
+    <use href="#dab-light" transform="translate(243.6, 80.4) scale(1.34) rotate(192)"/>
+    <use href="#dab-light" transform="translate(216.5, 69.7) scale(1.03) rotate(138)"/>
+    <use href="#dab-light" transform="translate(102.0, 62.5) scale(1.00) rotate(358)"/>
+    <use href="#dab-light" transform="translate(120.5, 72.3) scale(1.20) rotate(91)"/>
+    <use href="#dab-light" transform="translate(279.0, 90.1) scale(1.13) rotate(22)"/>
+    <use href="#dab-light" transform="translate(329.2, 111.2) scale(1.10) rotate(227)"/>
+    <use href="#dab-light" transform="translate(242.6, 43.4) scale(1.16) rotate(234)"/>
+    <use href="#dab-light" transform="translate(326.0, 59.2) scale(1.43) rotate(350)"/>
+    <use href="#dab-light" transform="translate(313.5, 97.9) scale(0.95) rotate(23)"/>
+    <use href="#dab-light" transform="translate(251.7, 72.0) scale(0.95) rotate(304)"/>
+    <use href="#dab-light" transform="translate(275.3, 76.5) scale(1.39) rotate(52)"/>
+    <use href="#dab-light" transform="translate(330.8, 83.4) scale(1.24) rotate(139)"/>
+    <use href="#dab-light" transform="translate(351.3, 115.0) scale(1.02) rotate(56)"/>
+    <use href="#dab-light" transform="translate(148.5, 80.9) scale(0.93) rotate(75)"/>
+    <use href="#dab-light" transform="translate(268.0, 100.1) scale(0.92) rotate(219)"/>
+    <use href="#dab-light" transform="translate(268.6, 95.6) scale(1.33) rotate(315)"/>
+    <use href="#dab-light" transform="translate(349.2, 120.7) scale(1.15) rotate(36)"/>
+    <use href="#dab-light" transform="translate(275.3, 107.0) scale(1.04) rotate(348)"/>
+    <use href="#dab-light" transform="translate(308.9, 55.9) scale(0.99) rotate(354)"/>
+    <use href="#dab-light" transform="translate(191.4, 57.3) scale(1.01) rotate(220)"/>
+    <use href="#dab-light" transform="translate(317.5, 107.6) scale(0.92) rotate(105)"/>
+    <use href="#dab-light" transform="translate(206.5, 71.1) scale(1.49) rotate(163)"/>
+    <use href="#dab-light" transform="translate(214.2, 73.6) scale(1.29) rotate(222)"/>
+    <use href="#dab-light" transform="translate(237.5, 38.8) scale(1.04) rotate(258)"/>
+    <use href="#dab-light" transform="translate(286.7, 104.5) scale(1.34) rotate(187)"/>
+    <use href="#dab-light" transform="translate(191.3, 90.9) scale(1.22) rotate(204)"/>
+    <use href="#dab-light" transform="translate(328.4, 88.2) scale(0.93) rotate(288)"/>
+    <use href="#dab-light" transform="translate(314.0, 100.0) scale(1.14) rotate(17)"/>
+    <use href="#dab-light" transform="translate(251.6, 82.7) scale(0.97) rotate(296)"/>
+    <use href="#dab-light" transform="translate(210.4, 76.1) scale(1.22) rotate(333)"/>
+    <use href="#dab-light" transform="translate(231.8, 75.0) scale(1.29) rotate(177)"/>
+    <use href="#dab-light" transform="translate(222.0, 83.1) scale(1.22) rotate(330)"/>
+    <use href="#dab-light" transform="translate(160.0, 74.5) scale(1.05) rotate(22)"/>
+    <use href="#dab-light" transform="translate(188.7, 72.7) scale(1.00) rotate(58)"/>
+    <use href="#dab-light" transform="translate(190.0, 56.0) scale(1.18) rotate(135)"/>
+    <use href="#dab-light" transform="translate(132.9, 66.6) scale(1.44) rotate(81)"/>
+    <use href="#dab-light" transform="translate(259.3, 47.3) scale(1.00) rotate(34)"/>
+    <use href="#dab-light" transform="translate(144.0, 81.0) scale(1.23) rotate(151)"/>
+    <use href="#dab-light" transform="translate(232.5, 74.8) scale(0.93) rotate(16)"/>
+    <use href="#dab-light" transform="translate(181.3, 55.3) scale(1.43) rotate(251)"/>
+    <use href="#dab-light" transform="translate(186.2, 90.6) scale(0.94) rotate(288)"/>
+    <use href="#dab-light" transform="translate(198.9, 85.2) scale(1.20) rotate(68)"/>
+    <use href="#dab-light" transform="translate(202.8, 87.1) scale(1.43) rotate(99)"/>
+    <use href="#dab-light" transform="translate(152.6, 43.0) scale(1.28) rotate(195)"/>
+    <use href="#dab-light" transform="translate(297.1, 97.2) scale(1.26) rotate(1)"/>
+    <use href="#dab-light" transform="translate(114.5, 72.3) scale(1.44) rotate(94)"/>
+    <use href="#dab-light" transform="translate(209.5, 84.8) scale(1.25) rotate(226)"/>
+    <use href="#dab-light" transform="translate(172.8, 35.9) scale(0.94) rotate(77)"/>
+    <use href="#dab-light" transform="translate(157.1, 44.1) scale(1.07) rotate(128)"/>
+    </g>
+    
+    <use href="#peach-blossom" transform="translate(464, 44) scale(0.88)"/>
+    <use href="#peach-blossom" transform="translate(472, 38) scale(0.68) rotate(25)"/>
+    <use href="#peach-blossom" transform="translate(442, 70) scale(0.85)"/>
+    <use href="#peach-blossom" transform="translate(450, 64) scale(0.66) rotate(-18)"/>
+    <use href="#peach-blossom" transform="translate(436, 108) scale(0.82)"/>
+    <use href="#peach-blossom" transform="translate(416, 56) scale(0.88)"/>
+    <use href="#peach-blossom" transform="translate(424, 50) scale(0.68) rotate(30)"/>
+    <use href="#peach-blossom" transform="translate(388, 88) scale(0.85)"/>
+
+    <use href="#peach-blossom" transform="translate(338, 184) scale(0.82)"/>
+    <use href="#peach-blossom" transform="translate(324, 22) scale(0.9)"/>
+    <use href="#peach-blossom" transform="translate(334, 16) scale(0.7) rotate(-22)"/>
+    <use href="#peach-blossom" transform="translate(284, 52) scale(0.85)"/>
+    <use href="#peach-blossom" transform="translate(258, 18) scale(0.88)"/>
+    <use href="#peach-blossom" transform="translate(266, 12) scale(0.68) rotate(20)"/>
+    <use href="#peach-blossom" transform="translate(214, 14) scale(0.92)"/>
+    <use href="#peach-blossom" transform="translate(222, 8) scale(0.72) rotate(-15)"/>
+
+    <use href="#peach-blossom" transform="translate(172, 16) scale(0.88)"/>
+    <use href="#peach-blossom" transform="translate(164, 22) scale(0.68) rotate(28)"/>
+    <use href="#peach-blossom" transform="translate(152, 36) scale(0.85)"/>
+    <use href="#peach-blossom" transform="translate(130, 42) scale(0.82)"/>
+    <use href="#peach-blossom" transform="translate(138, 36) scale(0.65) rotate(-24)"/>
+    <use href="#peach-blossom" transform="translate(88, 88) scale(0.86)"/>
+
+    <use href="#peach-blossom" transform="translate(62, 48) scale(0.9)"/>
+    <use href="#peach-blossom" transform="translate(54, 54) scale(0.7) rotate(-30)"/>
+    <use href="#peach-blossom" transform="translate(86, 44) scale(0.84)"/>
+    <use href="#peach-blossom" transform="translate(56, 122) scale(0.82)"/>
+    <use href="#peach-blossom" transform="translate(48, 128) scale(0.65) rotate(20)"/>
+
+    
+    <use href="#peach-blossom" transform="translate(104, 190) scale(0.84)"/>
+    <use href="#peach-blossom" transform="translate(124, 187) scale(0.66) rotate(15)"/>
+
+    
+    <use href="#peach-blossom" transform="translate(198, 172) scale(0.9)"/>
+    <use href="#peach-blossom" transform="translate(208, 166) scale(0.7) rotate(22)"/>
+    <use href="#peach-blossom" transform="translate(228, 174) scale(0.9)"/>
+    <use href="#peach-blossom" transform="translate(218, 182) scale(0.72) rotate(-18)"/>
+  </g>
+  
+  <rect x="0" y="310" width="900" height="30" fill="url(#soilBlend)" pointer-events="none"/>
+
+  
+  <g id="fallen-petals" opacity="0.94">
+    
+    <ellipse cx="88" cy="335" rx="3.5" ry="1.2" fill="#f8b6ca" transform="rotate(10 88 335)"/>
+    <ellipse cx="102" cy="333" rx="4.0" ry="1.3" fill="#fcaec7" transform="rotate(-15 102 333)"/>
+    <ellipse cx="114" cy="335" rx="4.5" ry="1.5" fill="#f8b6ca" transform="rotate(-12 114 335)"/>
+    <ellipse cx="126" cy="333" rx="4.2" ry="1.4" fill="#e25780" transform="rotate(8 126 333)"/>
+    <ellipse cx="138" cy="335" rx="5.0" ry="1.6" fill="#fcaec7" transform="rotate(-6 138 335)"/>
+    <ellipse cx="148" cy="332" rx="4.8" ry="1.5" fill="#fed2e0" transform="rotate(14 148 332)"/>
+    <ellipse cx="158" cy="334" rx="4.5" ry="1.5" fill="#e0527c" transform="rotate(-18 158 334)"/>
+    <ellipse cx="168" cy="331" rx="5.2" ry="1.7" fill="#fff0f5" transform="rotate(6 168 331)"/>
+
+    
+    <ellipse cx="178" cy="333" rx="5.5" ry="1.8" fill="#f8b6ca" transform="rotate(-14 178 333)"/>
+    <ellipse cx="186" cy="336" rx="4.6" ry="1.5" fill="#e25780" transform="rotate(16 186 336)"/>
+    <ellipse cx="194" cy="331" rx="5.5" ry="1.9" fill="#fcaec7" transform="rotate(-8 194 331)"/>
+    <ellipse cx="202" cy="335" rx="5.2" ry="1.7" fill="#fff0f5" transform="rotate(12 202 335)"/>
+    <ellipse cx="210" cy="332" rx="6.0" ry="1.9" fill="#e0527c" transform="rotate(-10 210 332)"/>
+    <ellipse cx="218" cy="336" rx="5.0" ry="1.6" fill="#f8b6ca" transform="rotate(8 218 336)"/>
+    <ellipse cx="226" cy="331" rx="5.8" ry="1.8" fill="#e25780" transform="rotate(-15 226 331)"/>
+    <ellipse cx="234" cy="335" rx="5.4" ry="1.7" fill="#fcaec7" transform="rotate(10 234 335)"/>
+    <ellipse cx="242" cy="332" rx="5.6" ry="1.8" fill="#fff0f5" transform="rotate(-6 242 332)"/>
+    <ellipse cx="250" cy="336" rx="5.0" ry="1.6" fill="#e0527c" transform="rotate(18 250 336)"/>
+    <ellipse cx="258" cy="332" rx="5.5" ry="1.7" fill="#f8b6ca" transform="rotate(-12 258 332)"/>
+    <ellipse cx="266" cy="335" rx="5.2" ry="1.6" fill="#fcaec7" transform="rotate(14 266 335)"/>
+    <ellipse cx="274" cy="331" rx="5.4" ry="1.7" fill="#e25780" transform="rotate(-8 274 331)"/>
+    <ellipse cx="282" cy="334" rx="4.8" ry="1.5" fill="#fff0f5" transform="rotate(12 282 334)"/>
+
+    
+    <ellipse cx="292" cy="332" rx="4.8" ry="1.5" fill="#f8b6ca" transform="rotate(-6 292 332)"/>
+    <ellipse cx="304" cy="335" rx="4.5" ry="1.4" fill="#e0527c" transform="rotate(10 304 335)"/>
+    <ellipse cx="316" cy="332" rx="4.6" ry="1.5" fill="#fcaec7" transform="rotate(-12 316 332)"/>
+    <ellipse cx="328" cy="334" rx="4.2" ry="1.4" fill="#fff0f5" transform="rotate(8 328 334)"/>
+    <ellipse cx="340" cy="332" rx="4.4" ry="1.4" fill="#e25780" transform="rotate(-14 340 332)"/>
+    <ellipse cx="354" cy="335" rx="3.8" ry="1.3" fill="#f8b6ca" transform="rotate(6 354 335)"/>
+    <ellipse cx="368" cy="333" rx="4.0" ry="1.3" fill="#fcaec7" transform="rotate(-8 368 333)"/>
+    <ellipse cx="384" cy="335" rx="3.6" ry="1.2" fill="#fed2e0" transform="rotate(14 384 335)"/>
+    <ellipse cx="402" cy="333" rx="3.2" ry="1.1" fill="#f8b6ca" transform="rotate(-6 402 333)"/>
+    <ellipse cx="420" cy="335" rx="2.8" ry="1.0" fill="#fff0f5" transform="rotate(10 420 335)"/>
+
+    
+    <ellipse cx="180" cy="337" rx="4.2" ry="1.4" fill="#fcaec7" transform="rotate(-10 180 337)"/>
+    <ellipse cx="206" cy="337" rx="4.8" ry="1.5" fill="#e25780" transform="rotate(6 206 337)"/>
+    <ellipse cx="222" cy="338" rx="4.5" ry="1.4" fill="#fff0f5" transform="rotate(-14 222 338)"/>
+    <ellipse cx="238" cy="337" rx="4.4" ry="1.4" fill="#f8b6ca" transform="rotate(12 238 337)"/>
+    <ellipse cx="260" cy="337" rx="4.6" ry="1.5" fill="#e0527c" transform="rotate(-8 260 337)"/>
+  </g>
+  
+  <g id="ananucas-carpet">
+    
+
+    
+    <g transform="translate(34, 336)">
+      <ellipse cx="0" cy="0" rx="10" ry="2.8" fill="url(#soilGlow)" opacity="0.75"/>
+      <g transform="scale(0.22) rotate(-4) translate(0, -85)">
+        <use href="#an-bud-single"/>
+      </g>
+    </g>
+
+    
+    <g transform="translate(74, 336)">
+      <ellipse cx="0" cy="0" rx="14" ry="3.5" fill="url(#soilGlow)" opacity="0.85"/>
+      <g transform="scale(0.28) rotate(2) translate(0, -108)">
+        <use href="#an-flower-rightbud"/>
+      </g>
+    </g>
+
+    
+    <g transform="translate(114, 336)">
+      <ellipse cx="0" cy="0" rx="12" ry="3.2" fill="url(#soilGlow)" opacity="0.8"/>
+      <g transform="scale(0.25) rotate(-3) translate(0, -92)">
+        <use href="#an-buds-two"/>
+      </g>
+    </g>
+
+    
+    <g transform="translate(154, 336)">
+      <ellipse cx="0" cy="0" rx="16" ry="4.0" fill="url(#soilGlow)" opacity="0.9"/>
+      <g transform="scale(0.34) rotate(1) translate(0, -108)">
+        <use href="#an-flower-leftbud"/>
+      </g>
+    </g>
+
+    
+    <g transform="translate(190, 336)">
+      <ellipse cx="0" cy="0" rx="13" ry="3.5" fill="url(#soilGlow)" opacity="0.85"/>
+      <g transform="scale(0.27) rotate(-2) translate(0, -108)">
+        <use href="#an-flower-solitary"/>
+      </g>
+    </g>
+
+    
+    <g transform="translate(222, 336)">
+      <ellipse cx="0" cy="0" rx="9" ry="2.5" fill="url(#soilGlow)" opacity="0.75"/>
+      <g transform="scale(0.20) rotate(5) translate(0, -85)">
+        <use href="#an-bud-single"/>
+      </g>
+    </g>
+  </g>
+  <g id="realistic-drifting-petals">
+    <g>
+      <path d="M0,0 C-2,-3 -4,-7 0,-10 C3,-7 2,-3 0,0" fill="#f8b6ca">
+        <animate attributeName="opacity" values="0;0.9;0.85;0" keyTimes="0;0.1;0.92;1" dur="8.0s" begin="0s" repeatCount="indefinite"/>
+      </path>
+      <animateTransform attributeName="transform" type="translate" values="214,14; 265,115; 315,225; 365,334" keyTimes="0;0.35;0.7;1" dur="8.0s" begin="0s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+      <path d="M0,0 C-2,-3 -4,-7 0,-10 C3,-7 2,-3 0,0" fill="#e25780">
+        <animate attributeName="opacity" values="0;0.85;0.8;0" keyTimes="0;0.12;0.92;1" dur="7.4s" begin="2.2s" repeatCount="indefinite"/>
+      </path>
+      <animateTransform attributeName="transform" type="translate" values="364,86; 405,150; 445,240; 485,334" keyTimes="0;0.35;0.7;1" dur="7.4s" begin="2.2s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+      <path d="M0,0 C-2,-3 -4,-7 0,-10 C3,-7 2,-3 0,0" fill="#fff5f8">
+        <animate attributeName="opacity" values="0;0.9;0.85;0" keyTimes="0;0.1;0.92;1" dur="8.8s" begin="4.2s" repeatCount="indefinite"/>
+      </path>
+      <animateTransform attributeName="transform" type="translate" values="442,70; 485,160; 530,245; 575,334" keyTimes="0;0.35;0.7;1" dur="8.8s" begin="4.2s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+      <path d="M0,0 C-2,-3 -4,-7 0,-10 C3,-7 2,-3 0,0" fill="#f8b6ca">
+        <animate attributeName="opacity" values="0;0.85;0.8;0" keyTimes="0;0.12;0.92;1" dur="7.8s" begin="5.8s" repeatCount="indefinite"/>
+      </path>
+      <animateTransform attributeName="transform" type="translate" values="258,18; 310,125; 365,230; 425,334" keyTimes="0;0.35;0.7;1" dur="7.8s" begin="5.8s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+      <path d="M0,0 C-2,-3 -4,-7 0,-10 C3,-7 2,-3 0,0" fill="#e25780">
+        <animate attributeName="opacity" values="0;0.85;0.8;0" keyTimes="0;0.12;0.92;1" dur="8.4s" begin="1.2s" repeatCount="indefinite"/>
+      </path>
+      <animateTransform attributeName="transform" type="translate" values="152,36; 190,135; 235,235; 275,334" keyTimes="0;0.35;0.7;1" dur="8.4s" begin="1.2s" repeatCount="indefinite"/>
+    </g>
+
+    
+    <g>
+      <path d="M0,0 C-2,-3 -4,-7 0,-10 C3,-7 2,-3 0,0" fill="#fcaec7">
+        <animate attributeName="opacity" values="0;0.88;0.8;0" keyTimes="0;0.15;0.92;1" dur="6.8s" begin="3.4s" repeatCount="indefinite"/>
+      </path>
+      <animateTransform attributeName="transform" type="translate" values="112,188; 135,240; 160,290; 185,334" keyTimes="0;0.35;0.7;1" dur="6.8s" begin="3.4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <g id="typography" transform="translate(695, 175)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#e05a7a" text-anchor="middle" letter-spacing="1">Martín</text>
+    <line x1="-105" y1="12" x2="105" y2="12" stroke="#e05a7a" stroke-width="1" opacity="0.45"/>
+    <text x="0" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500" fill="#9ea8b5" text-anchor="middle" letter-spacing="0.8">IT Engineering · Cybersecurity · IoT</text>
+    <text x="0" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#788290" text-anchor="middle" letter-spacing="0.4">Coquimbo, Norte Chico · Chile</text>
+    <line x1="-55" y1="68" x2="55" y2="68" stroke="#3d2048" stroke-width="0.8" opacity="0.7"/>
+    <text x="0" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" font-style="italic" fill="#d4a8b8" text-anchor="middle" opacity="0.9">Como la añañuca que duerme bajo la aridez</text>
+    <text x="0" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" font-style="italic" fill="#d4a8b8" text-anchor="middle" opacity="0.9">y florece después de la lluvia, sin aviso...</text>
+  </g>
 </svg>

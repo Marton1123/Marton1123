@@ -113,24 +113,11 @@ Soy estudiante de Ingeniería en Tecnologías de la Información radicado en **C
 
 <br>
 
-## V. El Florecimiento · *Estadísticas*
+## V. El Florecimiento · *Telemetría y Registro*
 
 <div align="center">
 
-<a href="https://github.com/Marton1123">
-  <img height="158" src="https://github-readme-stats.vercel.app/api?username=Marton1123&show_icons=true&bg_color=05030d&border_color=E05A7A&icon_color=E05A7A&title_color=F5C5D0&text_color=9EA8B5&hide_border=false&ring_color=E05A7A&include_all_commits=true&count_private=true" alt="Estadísticas de GitHub" />
-</a>
-<a href="https://github.com/Marton1123">
-  <img height="158" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Marton1123&layout=compact&bg_color=05030d&border_color=E05A7A&title_color=F5C5D0&text_color=9EA8B5&hide_border=false" alt="Lenguajes más utilizados" />
-</a>
-
-<br><br>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Marton1123&background=05030d&border=E05A7A&ring=E05A7A&fire=FF6B8A&currStreakLabel=F5C5D0&sideLabels=9EA8B5&dates=9EA8B5&stroke=1e1025)](https://git.io/streak-stats)
-
-<br>
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Marton1123&bg_color=05030d&color=E05A7A&line=C0394F&point=F5C5D0&area=true&hide_border=false&border_color=E05A7A)](https://github.com/Marton1123)
+<img src="./assets/metrics.svg" width="100%" alt="El Pulso — Registro de arquitectura y telemetría de código" />
 
 </div>
 

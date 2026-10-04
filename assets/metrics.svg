@@ -70,7 +70,7 @@
 
     <g transform="translate(412, 64)">
       <rect width="170" height="46" rx="8" fill="url(#kpiGrad)" stroke="#351846" stroke-width="0.9"/>
-      <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800" fill="#f8b6ca">417+</text>
+      <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800" fill="#f8b6ca">392</text>
       <text x="16" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="600" fill="#9ea8b5" letter-spacing="0.8">CONTRIBUCIONES</text>
     </g>
 
@@ -118,24 +118,24 @@
     <text x="435" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#e05a7a" letter-spacing="1">EL TELAR · LENGUAJES PRINCIPALES</text>
     <text x="435" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#d2c4e8">TypeScript</text>
     <rect x="515" y="152" width="185" height="8" rx="4" fill="#180b28"/>
-    <rect x="515" y="152" width="130" height="8" rx="4" fill="#e05a7a"/>
-    <text x="710" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#e05a7a">31.7%</text>
+    <rect x="515" y="152" width="129" height="8" rx="4" fill="#e05a7a"/>
+    <text x="710" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#e05a7a">31.4%</text>
     <text x="435" y="177" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#d2c4e8">Python</text>
     <rect x="515" y="169" width="185" height="8" rx="4" fill="#180b28"/>
-    <rect x="515" y="169" width="125" height="8" rx="4" fill="#f5809e"/>
-    <text x="710" y="177" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#f5809e">30.5%</text>
+    <rect x="515" y="169" width="128" height="8" rx="4" fill="#f5809e"/>
+    <text x="710" y="177" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#f5809e">31.1%</text>
     <text x="435" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#d2c4e8">JavaScript</text>
     <rect x="515" y="186" width="185" height="8" rx="4" fill="#180b28"/>
     <rect x="515" y="186" width="69" height="8" rx="4" fill="#f8b6ca"/>
-    <text x="710" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#f8b6ca">17.0%</text>
+    <text x="710" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#f8b6ca">16.9%</text>
     <text x="435" y="211" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#d2c4e8">CSS</text>
     <rect x="515" y="203" width="185" height="8" rx="4" fill="#180b28"/>
     <rect x="515" y="203" width="52" height="8" rx="4" fill="#9660ad"/>
-    <text x="710" y="211" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#9660ad">12.9%</text>
+    <text x="710" y="211" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#9660ad">12.8%</text>
     <text x="435" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="500" fill="#d2c4e8">C / C++</text>
     <rect x="515" y="220" width="185" height="8" rx="4" fill="#180b28"/>
     <rect x="515" y="220" width="32" height="8" rx="4" fill="#d8b257"/>
-    <text x="710" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#d8b257">7.9%</text>
+    <text x="710" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#d8b257">7.8%</text>
   </g>
 
   <g id="sparkline-section">
@@ -144,44 +144,44 @@
     <text x="768" y="264" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="400" fill="#9ea8b5">Ventana móvil 12 meses · Nov 25 - Oct 26</text>
 
     <g transform="translate(32, 272)">
-      <path d="M 0.0,31.0 C 33.5,31.0 33.5,34.3 66.9,34.3 C 100.4,34.3 100.4,25.7 133.8,25.7 C 167.3,25.7 167.3,28.6 200.7,28.6 C 234.2,28.6 234.2,22.9 267.6,22.9 C 301.1,22.9 301.1,24.5 334.5,24.5 C 368.0,24.5 368.0,18.0 401.5,18.0 C 434.9,18.0 434.9,29.8 468.4,29.8 C 501.8,29.8 501.8,26.9 535.3,26.9 C 568.7,26.9 568.7,20.5 602.2,20.5 C 635.6,20.5 635.6,16.8 669.1,16.8 C 702.5,16.8 702.5,32.2 736.0,32.2 L 736.0,44.0 L 0.0,44.0 Z" fill="url(#sparkArea)"/>
-      <path d="M 0.0,31.0 C 33.5,31.0 33.5,34.3 66.9,34.3 C 100.4,34.3 100.4,25.7 133.8,25.7 C 167.3,25.7 167.3,28.6 200.7,28.6 C 234.2,28.6 234.2,22.9 267.6,22.9 C 301.1,22.9 301.1,24.5 334.5,24.5 C 368.0,24.5 368.0,18.0 401.5,18.0 C 434.9,18.0 434.9,29.8 468.4,29.8 C 501.8,29.8 501.8,26.9 535.3,26.9 C 568.7,26.9 568.7,20.5 602.2,20.5 C 635.6,20.5 635.6,16.8 669.1,16.8 C 702.5,16.8 702.5,32.2 736.0,32.2" fill="none" stroke="url(#sparkLine)" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 0.0,40.0 C 33.5,40.0 33.5,40.0 66.9,40.0 C 100.4,40.0 100.4,36.7 133.8,36.7 C 167.3,36.7 167.3,16.8 200.7,16.8 C 234.2,16.8 234.2,39.1 267.6,39.1 C 301.1,39.1 301.1,38.6 334.5,38.6 C 368.0,38.6 368.0,22.4 401.5,22.4 C 434.9,22.4 434.9,39.5 468.4,39.5 C 501.8,39.5 501.8,40.0 535.3,40.0 C 568.7,40.0 568.7,40.0 602.2,40.0 C 635.6,40.0 635.6,33.4 669.1,33.4 C 702.5,33.4 702.5,40.0 736.0,40.0 L 736.0,44.0 L 0.0,44.0 Z" fill="url(#sparkArea)"/>
+      <path d="M 0.0,40.0 C 33.5,40.0 33.5,40.0 66.9,40.0 C 100.4,40.0 100.4,36.7 133.8,36.7 C 167.3,36.7 167.3,16.8 200.7,16.8 C 234.2,16.8 234.2,39.1 267.6,39.1 C 301.1,39.1 301.1,38.6 334.5,38.6 C 368.0,38.6 368.0,22.4 401.5,22.4 C 434.9,22.4 434.9,39.5 468.4,39.5 C 501.8,39.5 501.8,40.0 535.3,40.0 C 568.7,40.0 568.7,40.0 602.2,40.0 C 635.6,40.0 635.6,33.4 669.1,33.4 C 702.5,33.4 702.5,40.0 736.0,40.0" fill="none" stroke="url(#sparkLine)" stroke-width="2" stroke-linecap="round"/>
       <line x1="0" y1="44" x2="736" y2="44" stroke="#261234" stroke-width="0.8"/>
-      <circle cx="0.0" cy="31.0" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="0.0" y="25.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">32</text>
+      <circle cx="0.0" cy="40.0" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="0.0" y="34.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">14</text>
       <text x="0.0" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Nov 25</text>
-      <circle cx="66.9" cy="34.3" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="66.9" y="28.3" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">24</text>
+      <circle cx="66.9" cy="40.0" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="66.9" y="34.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">6</text>
       <text x="66.9" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Dic 25</text>
-      <circle cx="133.8" cy="25.7" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="133.8" y="19.7" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">45</text>
+      <circle cx="133.8" cy="36.7" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="133.8" y="30.7" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">31</text>
       <text x="133.8" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Ene 26</text>
-      <circle cx="200.7" cy="28.6" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="200.7" y="22.6" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">38</text>
+      <circle cx="200.7" cy="16.8" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="200.7" y="10.8" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">116</text>
       <text x="200.7" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Feb 26</text>
-      <circle cx="267.6" cy="22.9" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="267.6" y="16.9" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">52</text>
+      <circle cx="267.6" cy="39.1" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="267.6" y="33.1" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">21</text>
       <text x="267.6" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Mar 26</text>
-      <circle cx="334.5" cy="24.5" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="334.5" y="18.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">48</text>
+      <circle cx="334.5" cy="38.6" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="334.5" y="32.6" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">23</text>
       <text x="334.5" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Abr 26</text>
-      <circle cx="401.5" cy="18.0" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="401.5" y="12.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">64</text>
+      <circle cx="401.5" cy="22.4" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="401.5" y="16.4" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">92</text>
       <text x="401.5" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">May 26</text>
-      <circle cx="468.4" cy="29.8" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="468.4" y="23.8" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">35</text>
+      <circle cx="468.4" cy="39.5" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="468.4" y="33.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">19</text>
       <text x="468.4" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Jun 26</text>
-      <circle cx="535.3" cy="26.9" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="535.3" y="20.9" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">42</text>
+      <circle cx="535.3" cy="40.0" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="535.3" y="34.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">6</text>
       <text x="535.3" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Jul 26</text>
-      <circle cx="602.2" cy="20.5" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="602.2" y="14.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">58</text>
+      <circle cx="602.2" cy="40.0" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="602.2" y="34.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">4</text>
       <text x="602.2" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Ago 26</text>
-      <circle cx="669.1" cy="16.8" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
-      <text x="669.1" y="10.8" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">67</text>
+      <circle cx="669.1" cy="33.4" r="3" fill="#f8b6ca" stroke="#e05a7a" stroke-width="1"/>
+      <text x="669.1" y="27.4" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#f8b6ca">45</text>
       <text x="669.1" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" fill="#7a8595">Sep 26</text>
-      <circle cx="736.0" cy="32.2" r="3.5" fill="#4ade80" stroke="#166534" stroke-width="1"/>
-      <text x="736.0" y="26.2" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#4ade80">29</text>
+      <circle cx="736.0" cy="40.0" r="3.5" fill="#4ade80" stroke="#166534" stroke-width="1"/>
+      <text x="736.0" y="34.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="700" fill="#4ade80">1</text>
       <text x="736.0" y="56" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8" font-weight="600" fill="#4ade80">Oct 26</text>
     </g>
   </g>
